@@ -1,0 +1,351 @@
+@font-face {
+    font-family: "Medio";
+    src:url("../font/medio.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Trajan";
+    src:url("../font/TrajanPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ryumin";
+    src:url("../font/A-OTF-RyuminPr5-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Matisse";
+    src:url("../font/FOT-MatisseElegantoPro-M.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url('../font/futura_medium_bt.ttf') format('truetype');
+}
+
+@media screen and (min-width: 501px) {
+    #registration_sp {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #registration_pc {
+        display: none;
+    }
+    
+}
+
+
+
+#registration_pc {
+    overflow-x: hidden;
+}
+
+#registration_sp {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 0px;
+    color: #000;
+    display: flex;
+    padding: 1vw 10vw 1vw 3vw;
+    justify-content: space-between;
+    position: fixed;
+    width: 95vw;
+    z-index: 1000;
+}
+.header_logo {
+    width:15vw;
+}
+.header_a {
+    font: normal normal normal 1.2vw/2vw Kozuka Gothic Pr6N;
+    color: #000000;
+    position: fixed;
+    top:1.5vw;
+    transition: 0.2s;
+}
+.header_1 {
+    left:33.5vw;
+}
+.header_2 {
+    left:40vw;
+}
+.header_3 {
+    left:49vw;
+}
+.header_4 {
+    left:59vw;
+}
+.header_5 {
+    left:68vw;
+}
+.header_6 {
+    left:78vw;
+}
+.header_7 {
+    left:88vw;
+}
+.header_8 {
+    top: 23vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_9 {
+    top: 26vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_10 {
+    top: 10vw;
+    left: 20.5vw;
+}
+.header_11 {
+    top: 12vw;
+    left: 20.5vw;
+}
+.header_12 {
+    top: 14vw;
+    left: 20.5vw;
+}
+.header_13 {
+    top: 16vw;
+    left: 20.5vw;
+}
+.header_14 {
+    top: 18vw;
+    left: 20.5vw;
+}
+.header_15 {
+    top: 20vw;
+    left: 20.5vw;
+}
+.header_16 {
+    top: 22vw;
+    left: 20.5vw;
+}
+.header_17 {
+    top: 24vw;
+    left: 20.5vw;
+}
+
+.header_1_after {
+    top: 8vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_2_after {
+    top: 11vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_3_after {
+    top: 14vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_4_after {
+    top: 8vw;
+    left: 20vw;
+    font-weight: bold;
+}
+.header_5_after {
+    top: 26.5vw;
+    left: 20vw;
+    font-weight: bold;
+}
+.header_6_after {
+    top: 17vw;
+    left: 7vw;
+    font-weight: bold;
+}
+.header_7_after {
+    top: 20vw;
+    left: 7vw;
+    font-weight: bold;
+}
+
+.main_img {
+    width:100%;
+}
+
+
+
+
+/*以下ハンバーガーメニューについて*/
+
+.menu-btn {
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    display: flex;
+    position: fixed;
+    height: 5.3vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background: none;
+    border: none;
+    width: 5vw;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 0.2vw;
+    border-radius: 3px;
+    background-color: #000;
+    position: absolute;
+    transition: 0.5s;
+}
+.menu-btn span {
+    width: 2vw;
+}
+.menu-btn span:before {
+    bottom: 0.6vw;
+    width: 2vw;
+}
+.menu-btn span:after {
+    top: 0.6vw;
+    width: 2vw;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    width: 2vw;
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+
+.menu-content, .menu-content_work{
+    top: 5.3vw;
+    width: 100%;
+    position: fixed;
+    height: 28vw;
+    z-index: 80;
+    background-color: rgba(255, 255, 255, 0.85);
+    transition: all 0.2s;/*アニメーション設定*/
+    display: none;
+    opacity: 0;
+}
+
+.menu_appear {
+    opacity: 1;
+    display: block;
+}
+
+.menu-content ul, .menu-content_work ul {
+    padding: 50px 20px;
+    margin: 0 20px;
+    height: 400px;
+    direction: rtl;
+}
+.menu-content ul li, .menu-content_work ul li {
+    list-style: none;
+}
+
+
+.menu_head_sp, .menu_content_sp {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+    font: normal normal 600 16px/20px sans-serif;
+}
+.menu_content {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+    font: normal normal normal 20px/30px Open Sans;
+}
+
+
+
+
+
+.menu_head_sp {
+    padding: 20px 15px 3px 3px;
+}
+
+.menu_content_sp, .menu_content {
+    padding: 10px 5px;
+}
+
+.header_icon_list {
+    width: 220px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+.header_icon_sp {
+    width: 30px;
+    margin-top: 60px;
+}
+
+#menu_brand_sp, #menu_company_sp, #menu_link_sp {
+    display: none;
+}
+
+.menu_content_sp:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.menu_content:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.up, .down {
+    float: right;
+    margin-top: 5px;
+}
+
+.up {
+    display: none;
+}
+
+.down {
+    display: block;
+}
+
+.menu_a_sp {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 20px;
+}
+
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0px;/*メニューを画面内へ*/
+}
+#menu-btn-check:checked ~ .menu-content_work {
+
+}
+
+
