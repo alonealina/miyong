@@ -349,3 +349,87 @@ header {
 }
 
 
+/* floating box関連 */
+.floating_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+/* top関連 */
+
+/* 共通項目 */
+
+section.common {
+    margin-bottom: 10vw;
+}
+
+h2.pinkBorder {
+    display: inline-block;
+    border-bottom: 4px solid #FF94BB;
+    padding: 1vw 1vw 1vw 4vw;
+}
+
+/* sec1 */
+.top_section_1 .floating_box_left {
+    width: 50%;
+}
+
+.top_section_1 .floating_box_left .img_wrapper {
+    overflow: hidden;
+}
+
+.top_section_1 .floating_box_left img {
+    width: 100%;
+}
+
+.top_section_1 .floating_box_right {
+    width: 50%;
+    padding: 3vw 1vw;
+    margin:0 3vw;
+    text-align: center;
+}
+
+.top_section_1 .floating_box_right h2 {
+    color: #FF4D8E;
+    font-size: 1.9rem;
+    margin-bottom: 4vw;
+}
+
+.top_section_1 .floating_box_right p {
+    color: #707070;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+.top_section_1 .floating_box_right p.text_end {
+    background-color: #FFF2F7;
+    padding: 2vw;
+    margin: 0;
+}
+
+/* sec2 */
+
+.top_section_2 .img_wrapper {
+    overflow: hidden;
+    padding: 2vw;
+}
+
+.top_section_2 img {
+    width: 100%;
+}
+
+.top_section_2 .list_wrapper {
+    padding: 2vw;
+}
+
+.sec2_list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.sec2_list h3 {
+    text-align: center;
+    margin-top: 1vw;
+}
