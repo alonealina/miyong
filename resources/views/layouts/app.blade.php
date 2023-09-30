@@ -48,6 +48,33 @@
                 </div>
             </div>
 
+            <div class="right_menu">
+                <a href="#!" id="right_menu_close" onclick="clickOpen()">
+                    <div class="right_menu_text">チャット相談</div>
+                    <img src="{{ asset('img/down.png') }}" class="yazi">
+                </a>
+                <a href="#!" id="right_menu_open" onclick="clickClose()" style="display:none">
+                    <img src="{{ asset('img/mail.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">メール相談</div>
+
+                    <img src="{{ asset('img/line.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">LINE相談</div>
+
+                    <img src="{{ asset('img/kakao.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">KAKAO TALK<br>相談</div>
+
+                    <img src="{{ asset('img/insta.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">instagram</div>
+
+                    <img src="{{ asset('img/twitter.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">Twitter</div>
+
+                    <img src="{{ asset('img/up.png') }}" class="yazi">
+                </a>
+
+            </div>
+
+
             @yield('content')
 
 
