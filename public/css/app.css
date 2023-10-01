@@ -405,6 +405,15 @@ h2.pinkBorder {
     padding: 1vw 1vw 1vw 4vw;
 }
 
+.sec_title {
+    padding-right: 1vw;
+    width: 20vw;
+    text-align: right;
+    font: normal normal bold 2vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    border-bottom: 3px solid #FF94BB;
+    margin-bottom: 4vw;
+}
 /* sec1 */
 #section_1 {
     z-index: 100;
@@ -483,4 +492,282 @@ h2.pinkBorder {
 .sec2_list h3 {
     text-align: center;
     margin-top: 1vw;
+    font: normal normal normal 1.8vw/2.4vw Kozuka Gothic Pr6N;
 }
+
+.pink_btn {
+    border: 2px solid #FF4D8E;
+    border-radius: 2vw;
+    width:15vw;
+    padding:0.8vw;
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal bold 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+    display: block;
+    margin-right: 5vw;
+    margin-left: auto;
+}
+.top_section_2 .pink_yazi, .pink_yazi {
+    width: 0.5vw;
+    float: right;
+    margin-top: -2vw;
+    margin-right: 6vw;
+}
+
+/* sec3 */
+.top_section_3 {
+    padding-left: 4vw;
+}
+
+.sec3_bg {
+    background-image: url(../img/sec3_bg.png);
+    padding-top:1.5vw;
+    padding-left:4vw;
+    width:70vw;
+    background-position: center;
+    background-size: cover;
+    height: 28vw;
+    font: normal normal normal 1.3vw/3.5vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.08vw;
+    color: #FFFFFF;
+}
+.sec3_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    margin-top: -20vw;
+}
+.sec3_text {
+    width: 33vw;
+    padding-top: 23vw;
+    font: normal normal normal 1.3vw/3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.08vw;
+    color: #707070;
+}
+.sec3_dummy {
+    width: 55vw;
+    height:40vw;
+}
+.sec3_bg_box {
+    width: 45vw;
+    text-align: right;
+    font: normal normal normal 1.8vw/5vw Kozuka Gothic Pr6N;
+    color: #FFFFFF;
+    padding-right:10vw;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 3vw;
+}
+.sec3_span {
+    font: normal normal 500 3vw/5vw Kozuka Gothic Pr6N;
+}
+.sec3_flex_title {
+    text-align: center;
+    font: normal normal bold 2.5vw/2.5vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+    margin-bottom: 2vw;
+}
+
+.miyong_title {
+    text-align: center;
+    font: normal normal bold 3vw/4vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+    margin:7vw 0;
+}
+
+/* sec4 */
+.sec4_title {
+    padding-left: 4vw;
+    width: 19vw;
+    font: normal normal bold 2vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    border-bottom: 3px solid #FF94BB;
+    margin-bottom: 4vw;
+}
+
+.sec4_service_list {
+    width:100%;
+    padding:0 3vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+.sec4_service_list img {
+    display: block;
+    height:6vw;
+    margin: 0 auto 1vw;
+}
+.sec4_service {
+    text-align: center;
+    font: normal normal bold 1.4vw/2vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+}
+.sec4_text {
+    font: normal normal normal 1vw/1.3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    padding-left:4vw;
+}
+
+
+/* sec5 */
+.top_section_5 {
+    background-image: url(../img/sec5_bg.png);
+    width:100vw;
+    height:30vw;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    margin-top: 5vw;
+}
+.sec5_phone_bg {
+    background-image: url(../img/sec5_phone_bg.png);
+    width:75vw;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    margin:auto;
+    border-radius: 1vw;
+    padding-left: 36vw;
+    padding-right: 4vw;
+    padding-top: 4vw;
+    text-align: center;
+    font: normal normal bold 1.8vw/3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    color: #FF4D8E;
+}
+.sec5_span {
+    font: normal normal 500 3vw/5vw Kozuka Gothic Pr6N;
+}
+.sec5_icon_list {
+    width:28vw;
+    display: flex;
+    justify-content: space-between;
+    margin:2vw auto;
+}
+.sec5_icon {
+    width:4vw;
+}
+
+
+/* sec6 */
+.top_section_6 {
+    background-image: url(../img/sec6_bg.png);
+    width:100vw;
+    height:50vw;
+    background-position: 8vw;
+    background-size: cover;
+    padding-top: 10vw;
+    padding-left:40vw;
+    margin-top: 5vw;
+    text-align: center;
+    font: normal normal normal 1.4vw/4vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.08vw;
+    color: #707070;
+}
+.sec6_title1 {
+    font: normal normal bold 2vw/2.5vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+}
+.sec6_title2 {
+    font: normal normal bold 1.4vw/2.5vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+    margin-bottom: 3vw;
+}
+.sec6_span {
+    font: normal normal bold 1.8vw/4vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+}
+
+/* sec7 */
+.top_section_7 {
+    margin-top: 8vw;
+}
+
+.sec7_hotel_list {
+    width:100%;
+    padding:0 3vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+.sec7_hotel {
+    width:22vw;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 1.6vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+}
+.sec7_hotel img {
+    width:100%;
+    display: block;
+}
+
+/* sec8 */
+.sec8_news_list {
+    width:45vw;
+    display: block;
+    margin: 3vw auto;
+}
+.sec8_news {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    padding:0.5vw;
+    border-bottom: #FF94BB 1px solid;
+}
+.sec8_news_date {
+    width:8vw;
+}
+.sec8_news_genre {
+    width:7vw;
+    text-align: center;
+}
+.sec8_news_title {
+    width:27vw;
+}
+
+/* sec9 */
+.top_section_9 {
+    width: 100vw;
+    height:50vw;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FF94BB 100%) 0% 0% no-repeat padding-box;
+}
+.contact_div {
+    width: 50vw;
+    margin: 1vw auto;
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 1.3vw/1.6vw Hiragino Kaku Gothic Pro;
+}
+.contact_name {
+    width: 15vw;
+}
+.contact_text, .contact_textarea {
+    padding:0.7vw 1.2vw;
+    width:33vw;
+    border: none;
+    border-radius: 5px;
+}
+.contact_text::placeholder {
+    color: #CCCCCC;
+}
+.contact_textarea {
+    height: 20vw;
+}
+.send_btn {
+    background: #707070 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: block;
+    width: 7vw;
+    text-align: center;
+    padding: 0.8vw 0;
+    color: #fff;
+    margin-left: 55vw;
+    font: normal normal normal 1.3vw/1.6vw Arial;
+}
+
