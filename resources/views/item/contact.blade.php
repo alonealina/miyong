@@ -23,4 +23,5 @@
         <a href="#!" onclick="clickMailButton()" class="send_btn">送信</a>
         <div class="error_message" id="error_message"></div>
     </form>
+    <p class="contact">Copyright（C）Beauty Support All rights reserved.</p>
 </section>

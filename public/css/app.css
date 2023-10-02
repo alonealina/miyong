@@ -453,7 +453,7 @@ h2.pinkBorder {
     margin-bottom: 4vw;
 }
 
-.top_section_1 .floating_box_right 
+.top_section_1 .floating_box_right {
     font-size: 3vw;
 }
 
@@ -472,7 +472,7 @@ h2.pinkBorder {
     position: relative;
     margin-right: 0;
     margin-left: auto;
-    top: -11vw;
+    top: -22vw;
     z-index: 10;
     font: normal normal bold 1.6vw/3.2vw Kozuka Gothic Pr6N;
     letter-spacing: 1px;
@@ -633,7 +633,7 @@ section.top_section_2 {
     background-size: cover;
     padding-top: 4vw;
     padding-bottom: 4vw;
-    margin-top: 5vw;
+    margin-top: -1.5vw;
 }
 .sec5_phone_bg {
     background-image: url(../img/sec5_phone_bg.png);
@@ -785,3 +785,32 @@ section.top_section_2 {
     font: normal normal normal 1.3vw/1.6vw Arial;
 }
 
+p.contact {
+    margin: 2vw 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* why関連 */
+
+section.why_section1 {
+    margin: 0;
+    background-image: url(../img/why_sec1_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right -15vw center;
+}
+
+.why_section1 p {
+    padding: 5vw 50vw 5vw 3vw;
+    color: #707070;
+    font: normal normal normal 1.2vw/3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0.1vw;
+    line-height: 5vw;
+    word-wrap: break-word;
+}
+
+.why_section1 b {
+    color: #FF4D8E;
+    font-size: 1.8vw;
+}
