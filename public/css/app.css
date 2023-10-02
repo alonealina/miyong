@@ -434,6 +434,11 @@ h2.pinkBorder {
     padding-top: 4vw;
 }
 
+p.footer {
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5vw;
+}
 
 /* sec1 */
 .top_section_1 {
@@ -944,6 +949,10 @@ section.why_section1 {
 
 div.coop_text  {
     padding: 0 2vw;
+}
+
+div.coop_text h3 {
+    margin-bottom: 1vw;
 }
 
 .coop_common {
