@@ -80,6 +80,7 @@
 
         </body>
     </div>
+    <script src="{{ asset('js/header.js') }}"></script>
 
     @else
     <div id="registration_sp">
@@ -88,48 +89,79 @@
     @endphp
         <body>
 
+            <header>
+                <a href="{{ route('index') }}" class=""><img src="{{ asset('img/header_logo.png') }}" class="header_logo"></a>
+            </header>
             <div class="hamburger-menu">
                 <input type="checkbox" id="menu-btn-check" name="menu_btn">
                 <label for="menu-btn-check" class="menu-btn"><span></span></label>
-                <div class="menu-content">
-                    <ul>
-                        <li>
-                            <a href="#coffee_sp" class="menu_content_sp">兎珈琲とは</a>
-                        </li>
-                        <li>
-                            <a href="#wall_sp" class="menu_content_sp">兎珈琲の壁</a>
-                        </li>
-                        <li>
-                            <a href="#stair_sp" class="menu_content_sp">箪笥階段</a>
-                        </li>
-                        <li>
-                            <a href="#glass_sp" class="menu_content_sp">昭和ガラス</a>
-                        </li>
-                        <li>
-                            <a href="#bunny_sp" class="menu_content_sp">バニーカステラ</a>
-                        </li>
-                        <li>
-                            <a href="#detail_sp" class="menu_content_sp">店舗情報</a>
-                        </li>
-                        <a href="https://www.instagram.com/_usagicoffee/?igshid=YmMyMTA2M2Y%3D" class="" target="_blank"><img src="{{ asset('img/insta.png') }}" class="header_icon_sp"></a>
-                    </ul>
+                <div class="menu-content_work">
+                    <div class="header_flex">
+                        <div class="header_column">
+                            <a href="{{ route('index') }}" class="header_a">お知らせ</a>
+                            <a href="{{ route('index') }}" class="header_a">サービス内容</a>
+                            <a href="{{ route('service_flow') }}" class="header_a">サービスの流れ</a>
+                            <a href="{{ route('cooperation') }}" class="header_a">提携クリニック</a>
+                            <a href="{{ route('hotel') }}" class="header_a">提携ホテル</a>
+                            <a href="{{ route('index') }}" class="header_a">お問い合わせ</a>
+                            <a href="{{ route('index') }}" class="header_a">運営会社</a>
+                        </div>
+
+                        <div class="header_column">
+                            <a href="{{ route('index') }}" class="header_a" style="margin-bottom: 20px;">可能手術内容</a>
+                            <a href="{{ route('index') }}" class="header_a_s">目の整形</a>
+                            <a href="{{ route('index') }}" class="header_a_s">鼻の整形</a>
+                            <a href="{{ route('index') }}" class="header_a_s">両顎&輪郭整形</a>
+                            <a href="{{ route('index') }}" class="header_a_s">胸・ボディ</a>
+                            <a href="{{ route('index') }}" class="header_a_s">整形注射</a>
+                            <a href="{{ route('index') }}" class="header_a_s">アンチエイジング</a>
+                            <a href="{{ route('index') }}" class="header_a_s">各種再手術</a>
+                            <a href="{{ route('index') }}" class="header_a_s">その他</a>
+                            <a href="{{ route('sample') }}" class="header_a">実施例サンプル</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            
+            <div class="right_menu">
+                <a href="#!" id="right_menu_close" onclick="clickOpenSp()">
+                    <div class="right_menu_text">チャット相談</div>
+                    <img src="{{ asset('img/down.png') }}" class="yazi">
+                </a>
+                <a href="#!" id="right_menu_open" onclick="clickCloseSp()" style="display:none">
+                    <img src="{{ asset('img/mail.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">メール相談</div>
+
+                    <img src="{{ asset('img/line.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">LINE相談</div>
+
+                    <img src="{{ asset('img/kakao.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">KAKAO TALK<br>相談</div>
+
+                    <img src="{{ asset('img/insta.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">instagram</div>
+
+                    <img src="{{ asset('img/twitter.png') }}" class="right_menu_img">
+                    <div class="right_menu_text">Twitter</div>
+
+                    <img src="{{ asset('img/up.png') }}" class="yazi">
+                </a>
+
+            </div>
+
+            <div class="header_margin"></div>
+
             @yield('content_sp')
 
-            <footer class="footer_sp" style="margin-top: 30px; padding: 40px 20px;">
-                <a href="{{ route('contact') }}"><img src="{{ asset('img/yazi.png') }}" style="width: 16px;">　Contact Form</a>
-                <div class="footer_text_sp">THOSE WHO KNOW<br>ONLY ONE<br>COUNTRY KNOW<br>NO COUNTRY</div>
-            </footer>
         </body>
     </div>
+    <script src="{{ asset('js/header_sp.js') }}"></script>
     @endif
 
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="{{ asset('js/app_sp.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
-    <script src="{{ asset('js/header.js') }}"></script>
     <script type="text/javascript">
     if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) 
         || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {

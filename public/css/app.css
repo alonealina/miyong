@@ -1119,3 +1119,273 @@ section.news_section1 {
 }
 
 
+
+
+
+/* 以下SP版 */
+
+@media screen and (max-width: 500px) {
+    .right_menu {
+        font: normal normal normal 12px/15px メイリオ;
+        letter-spacing: 0px;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 10px;
+        width: 84px;
+        position: fixed;
+        top: 110px;
+        right: 15px;
+        text-align: center;
+        height: 85px;
+        transition: 0.2s;
+    }
+    .yazi {
+        width: 8px;
+    }
+    #right_menu_close {
+        padding: 30px 0 0;
+    }
+    #right_menu_open {
+        padding: 20px 0 0;
+    }
+    .right_menu_img {
+        width: 50px;
+        margin-bottom: 8px;
+    }
+    .right_menu_text {
+        margin-bottom: 20px;
+        color: #000000;
+    }
+
+    .header_logo {
+        width: 180px;
+    }
+    header {
+        background-color: rgba(255, 255, 255, 0.85);
+        letter-spacing: 0px;
+        color: #000;
+        display: flex;
+        padding: 8px 20px;
+        justify-content: space-between;
+        position: fixed;
+        width: calc(100vw - 60px);
+        z-index: 1000;
+        height: 60px;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 0vw;
+        right: 0vw;
+        display: flex;
+        position: fixed;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background: none;
+        border: none;
+        width: 60px;
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 3px;
+        background-color: #000;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .menu-btn span {
+        width: 25px;
+    }
+    .menu-btn span:before {
+        bottom: 10px;
+        width: 25px;
+    }
+    .menu-btn span:after {
+        top: 10px;
+        width: 25px;
+    }
+    
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+    }
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        width: 25px;
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    .menu-content, .menu-content_work {
+        top: 60px;
+        width: 100%;
+        position: fixed;
+        height: 400px;
+        z-index: 80;
+        background-color: rgba(255, 255, 255, 0.85);
+        transition: all 0.2s;
+        display: none;
+        opacity: 0;
+    }
+    .header_flex {
+        padding:20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header_a {
+        font: normal normal bold 15px/15px メイリオ;
+        color: #000000;
+        display: block;
+        position: relative;
+        transition: 0.2s;
+        margin-bottom: 30px;
+    }
+    .header_a_s {
+        font: normal normal normal 15px/15px メイリオ;
+        color: #000000;
+        display: block;
+        position: relative;
+        transition: 0.2s;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    .header_column {
+        width: 47%;
+    }
+    .header_margin {
+        margin-top: 60px;
+    }
+
+    .sec1_title {
+        text-align: center;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
+        color: #FF4D8E;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .sec1_title_b {
+        font: normal normal bold 20px/25px Kozuka Gothic Pr6N;
+    }
+    .sec1_text {
+        font: normal normal normal 10px/25px Kozuka Gothic Pr6N;
+        letter-spacing: 0px;
+        color: #707070;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .text_end_sp {
+        text-align: center;
+        font: normal normal bold 14px/25px Kozuka Gothic Pr6N;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .sec_title {
+        padding-right: 0;
+        width: 250px;
+        text-align: center;
+        font: normal normal bold 18px/40px Kozuka Gothic Pr6N;
+        color: #000000;
+        border-bottom: 3px solid #FF94BB;
+        margin: 50px auto 20px;
+    }
+    .sec2_sp {
+        padding:0 20px;
+    }
+    .sec2_list_sp {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sec2_item {
+        width:105px;
+    }
+    .sec2_img {
+        width:100%;
+        display: block;
+    }
+    .sec2_name {
+        text-align: center;
+        font: normal normal normal 10px/20px Kozuka Gothic Pr6N;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    .pink_btn {
+        border: 2px solid #FF4D8E;
+        border-radius: 26px;
+        width: 150px;
+        padding: 15px;
+        text-align: center;
+        text-decoration: underline;
+        font: normal normal bold 16px/20px Kozuka Gothic Pr6N;
+        color: #FF4D8E;
+        display: block;
+        margin: 30px auto;
+    }
+    .top_section_2 .pink_yazi, .pink_yazi {
+        width: 5px;
+        float: right;
+        margin-top: -60px;
+        margin-right: 34vw;
+    }
+    .sec3_bg {
+        background-image: url(../img/sec3_bg.png);
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 94vw;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+        font: normal normal normal 12px/30px メイリオ;
+        letter-spacing: 0.6px;
+        color: #FFFFFF;
+        margin-left: auto;
+    }
+    .sec3_bg_box {
+        width: 100%;
+        text-align: left;
+        font: normal normal normal 1.8vw/5vw Kozuka Gothic Pr6N;
+        color: #FFFFFF;
+        padding-right: 0;
+        border-bottom: solid 1px #fff;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .sec3_span {
+        font: normal normal 500 20px/40px Kozuka Gothic Pr6N;
+    }
+    .sec3_text {
+        width: 270px;
+        padding-top: 30px;
+        font: normal normal normal 12px/30px Kozuka Gothic Pr6N;
+        letter-spacing: 0.08vw;
+        color: #707070;
+        margin: auto;
+    }
+    .sec3_flex_title {
+        margin-bottom: 2vw;
+        font: normal normal bold 20px/40px Kozuka Gothic Pr6N;
+        letter-spacing: 0px;
+        color: #FF4D8E;
+    }
+    .miyong_title {
+        font: normal normal bold 25px/35px Kozuka Gothic Pr6N;
+        letter-spacing: 0px;
+        color: #FF4D8E;
+    }
+
+
+
+
+}
+
+
+
+
