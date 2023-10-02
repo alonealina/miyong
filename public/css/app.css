@@ -1043,3 +1043,55 @@ div.coop_text h3 {
 .wrapper_dotbg_inner  a.send_btn {
     margin-left: 30vw;
 }
+
+
+/* 実施例サンプル関連 */
+
+.select_clinic {
+    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 18vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1vw;
+    margin-bottom: 2vw;
+}
+.clinic_div {
+    padding:4vw;
+}
+.clinic_table {
+    width: 100%;
+    text-align: center;
+    border-collapse:  collapse;
+    font: normal normal normal 1.3vw/2vw メイリオ;
+}
+.clinic_table td {
+    border: solid 1px;
+    padding: 0.5vw 0;
+    width: 20%;
+}
+.clinic_table th {
+    background: #FF94BB 0% 0% no-repeat padding-box;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+}
+.sample_title {
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    color: #000000;
+}
+.sample_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sample_img {
+    width:49%;
+    display: block;
+}
+
+
