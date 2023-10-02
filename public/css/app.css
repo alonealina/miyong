@@ -1003,3 +1003,43 @@ div.coop_text h3 {
     width:30vw;
     display: block;
 }
+
+/* wrapper_dotbg共通 */
+
+.wrapper_dotbg {
+    background-image: url(../img/dotbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper_dotbg_inner {
+    padding: 5vw 30vw;
+}
+
+/* company関連 */
+
+.wrapper_dotbg_inner h3 {
+    font-size: 1.3vw;
+    font-weight: bold;
+    line-height: 3vw;
+    border-bottom: 2px solid #FF94BB;
+    margin-bottom: 1vw;
+}
+
+.wrapper_dotbg_inner input {
+    border: #707070 solid 2px;
+    border-radius: 5px;
+}
+
+.wrapper_dotbg_inner textarea {
+    border: #707070 solid 2px;
+    border-radius: 5px;
+}
+
+.wrapper_dotbg_inner .contact_name {
+    padding-top: 1vw;
+}
+
+.wrapper_dotbg_inner  a.send_btn {
+    margin-left: 30vw;
+}

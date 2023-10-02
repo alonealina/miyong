@@ -37,6 +37,16 @@ class MiyongController extends Controller
         return view('cooperation');
     }
 
+    public function contactform()
+    {
+        return view('contactform');
+    }
+
+    public function company()
+    {
+        return view('company');
+    }
+
     public function mail_send(Request $request)
     {
     	$data = ['name' => $request->name,
