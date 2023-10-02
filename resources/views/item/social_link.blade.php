@@ -1,8 +1,3 @@
-@extends('layouts.app')
-
-
-@section('socialLink')
-
 <section id="section_5" class="top_section_5 common">
     <div class="sec5_phone_bg">
         ご相談は <span class="sec5_span">24時間</span> いつでも受付中!!<br>
@@ -15,5 +10,3 @@
         </div>
     </div>
 </section>
-
-@endsection
