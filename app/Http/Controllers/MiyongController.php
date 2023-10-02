@@ -22,6 +22,11 @@ class MiyongController extends Controller
         return view('service_flow');
     }
 
+    public function hotel()
+    {
+        return view('hotel');
+    }
+
     public function contact()
     {
         return view('contact');

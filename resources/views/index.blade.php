@@ -130,7 +130,7 @@
     「医術」を越えた<span class="sec6_span">「人生のターニングポイント」</span>となり、<br>
     たくさんの外国人が韓国の美容外科を訪れています。
 
-    <a href="{{ route('index') }}" class="pink_btn" style="margin: 3vw auto 0;">もっと詳しく</a>
+    <a href="{{ route('why') }}" class="pink_btn" style="margin: 3vw auto 0;">もっと詳しく</a>
     <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi" style="margin-right: 23.4vw;">
 </section>
 
