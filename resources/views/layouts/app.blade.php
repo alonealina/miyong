@@ -35,8 +35,8 @@
                 <input type="checkbox" id="menu-btn-check" name="menu_btn">
                 <label for="menu-btn-check" class="menu-btn"><span></span></label>
                 <div class="menu-content_work">
-                    <a href="{{ route('index') }}" class="header_a header_8">お問い合わせ</a>
-                    <a href="{{ route('index') }}" class="header_a header_9">運営会社</a>
+                    <a href="{{ route('contactform') }}" class="header_a header_8">お問い合わせ</a>
+                    <a href="{{ route('company') }}" class="header_a header_9">運営会社</a>
                     <a href="{{ route('index') }}" class="header_a header_10">目の整形</a>
                     <a href="{{ route('index') }}" class="header_a header_11">鼻の整形</a>
                     <a href="{{ route('index') }}" class="header_a header_12">両顎&輪郭整形</a>

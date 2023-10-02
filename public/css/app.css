@@ -1,26 +1,11 @@
 @font-face {
-    font-family: "Medio";
-    src:url("../font/medio.otf") format("opentype");
+    font-family: "KozGoPr6N-R";
+    src:url("../font/KozGoPr6N-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Trajan";
     src:url("../font/TrajanPro-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Ryumin";
-    src:url("../font/A-OTF-RyuminPr5-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Matisse";
-    src:url("../font/FOT-MatisseElegantoPro-M.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Futura";
-    src: url('../font/futura_medium_bt.ttf') format('truetype');
 }
 
 @media screen and (min-width: 501px) {
@@ -46,6 +31,10 @@
 #registration_sp {
     width: 100%;
     overflow-x: hidden;
+}
+
+body {
+    font-family: 'KozGoPr6N-R';
 }
 
 header {
