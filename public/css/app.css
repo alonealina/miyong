@@ -518,10 +518,11 @@ section.top_section_2 {
     list-style: none;
     display: flex;
     padding: 0;
+    justify-content: space-between;
 }
 
 .sec2_list li {
-    margin-right: 2vw;
+    width: 18vw;
 }
 
 .sec2_list li:last-child {
