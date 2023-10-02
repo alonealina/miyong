@@ -193,7 +193,7 @@
     <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
 </section>
 
-<section id="section_9" class="top_section_9 common">
+<section id="section_9" class="top_section_9">
     <div class="sec_title">お問い合わせ</div>
     <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
         @csrf

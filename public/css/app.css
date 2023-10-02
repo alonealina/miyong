@@ -399,6 +399,10 @@ header {
 
 /* 共通項目 */
 
+section.common {
+    margin-bottom: 10vw;
+}
+
 h2.pinkBorder {
     display: inline-block;
     border-bottom: 4px solid #FF94BB;
@@ -414,6 +418,7 @@ h2.pinkBorder {
     border-bottom: 3px solid #FF94BB;
     margin-bottom: 4vw;
 }
+
 /* sec1 */
 #section_1 {
     z-index: 100;
