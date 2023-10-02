@@ -1,8 +1,3 @@
-@extends('layouts.app')
-
-
-@section('contact')
-
 <section id="section_9" class="top_section_9">
     <div class="sec_title">お問い合わせ</div>
     <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
@@ -29,5 +24,3 @@
         <div class="error_message" id="error_message"></div>
     </form>
 </section>
-
-@endsection
