@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section id="section_3" class="top_section_2 coop_common">
+<section id="section_2" class="top_section_2 coop_common">
     <div class="coop_text">
         <h3>リエンジャン美容外科</h3>
         <p>
@@ -44,20 +44,20 @@
         </p>
     </div>
     <div class="img_wrapper">
-        <img src="{{ asset('img/sec2_bg.png') }}">
+        <img src="{{ asset('img/sec2_bg2.png') }}">
     </div>
     <div class="list_wrapper">
         <ul class="sec2_list">
-            <li><img src="{{ asset('img/sec2_list1.png')}}"><h3>パクヤンス院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list2.png')}}"><h3>キムヨンジュン院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list3.png')}}"><h3>ユウォンジェ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list4.png')}}"><h3>ユアンナ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list5.png')}}"><h3>パクイヒョン院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list8.png')}}"><h3>チャン·ヨンウ院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list9.png')}}"><h3>キム·ジョンベ医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list10.png')}}"><h3>チェ・ウォンイル医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list11.png')}}"><h3>チェ・サンロク医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list12.png')}}"><h3>コ·ヒョソン医師</h3></li>
         </ul>
     </div>
 </section>
 
-<p>Copyright（C）Beauty Support All rights reserved.</p>
+<p class="footer">Copyright（C）Beauty Support All rights reserved.</p>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/index.js') }}"></script>
