@@ -515,6 +515,14 @@ section.top_section_2 {
     padding: 0;
 }
 
+.sec2_list li {
+    margin-right: 2vw;
+}
+
+.sec2_list li:last-child {
+    margin-right: 0vw;
+}
+
 .sec2_list h3 {
     text-align: center;
     margin-top: 1vw;
@@ -903,14 +911,41 @@ section.why_section1 {
     z-index: 1000;
     position: relative;
     text-align: center;
-    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    font: normal normal normal 1.3vw/2vw メイリオ;
     color: #000000;
 }
 .plan_btn {
     width: 12vw;
-    margin-bottom: 1.5vw;
     display: block;
     margin: 0 auto 1.5vw;
 }
 
 
+/* cooperation関連 */
+
+.coop_section1 h2 {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.coop_section1 img {
+    width: 100%;
+}
+
+.coop_section1 .img_btn {
+    width: 100%;
+    text-align: center;
+    padding: 3vw 0;
+}
+
+.coop_section1 .img_btn img {
+    width: 30%;
+}
+
+div.coop_text  {
+    padding: 0 2vw;
+}
+
+.coop_common {
+    margin-bottom: 0;
+}
