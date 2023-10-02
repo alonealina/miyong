@@ -22,7 +22,7 @@
     <div id="registration_pc">
         <body>
             <header>
-                <img src="{{ asset('img/header_logo.png') }}" class="header_logo">
+                <a href="{{ route('index') }}" class=""><img src="{{ asset('img/header_logo.png') }}" class="header_logo"></a>
                 <a href="{{ route('index') }}" class="header_a header_1">お知らせ</a>
                 <a href="{{ route('index') }}" class="header_a header_2">サービス内容</a>
                 <a href="{{ route('index') }}" class="header_a header_3">サービスの流れ</a>
