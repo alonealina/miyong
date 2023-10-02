@@ -949,3 +949,47 @@ div.coop_text  {
 .coop_common {
     margin-bottom: 0;
 }
+
+
+
+/* 提携ホテル関連 */
+
+.hotel_main_text {
+    text-align: center;
+    font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    margin-top: 4vw;
+    margin-bottom: 8vw;
+}
+.hotel_div {
+    padding:0 4vw;
+}
+.hotel_name {
+    font: normal normal bold 1.5vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    margin-bottom: 1vw;
+}
+.hotel_text {
+    font: normal normal normal 1.3vw/1.8vw Kozuka Gothic Pr6N;
+    color: #000000;
+    margin-bottom: 2vw;
+}
+.hotel_a {
+    color: #000;
+    text-decoration: underline;
+}
+.hotel_main_img {
+    width:100%;
+    display: block;
+    margin-bottom: 2vw;
+}
+.hotel_img_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+.hotel_sub_img {
+    width:30vw;
+    display: block;
+}
