@@ -17,6 +17,11 @@ class MiyongController extends Controller
         return view('why');
     }
 
+    public function service_flow()
+    {
+        return view('service_flow');
+    }
+
     public function contact()
     {
         return view('contact');

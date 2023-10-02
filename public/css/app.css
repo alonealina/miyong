@@ -423,6 +423,18 @@ h2.pinkBorder {
     margin-bottom: 4vw;
 }
 
+.page_title {
+    padding-right: 1vw;
+    width: 20vw;
+    text-align: right;
+    font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
+    color: #000000;
+    border-bottom: 3px solid #FF94BB;
+    margin-bottom: 2vw;
+    padding-top: 4vw;
+}
+
+
 /* sec1 */
 .top_section_1 {
     z-index: 100;
@@ -814,3 +826,91 @@ section.why_section1 {
     color: #FF4D8E;
     font-size: 1.8vw;
 }
+
+
+/* サービスの流れ */
+.service_flow_flex {
+    width:100%;
+    padding:4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.service_flow_item {
+    width:30vw;
+    padding:1.5vw;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #FF4D8E;
+    border-radius: 1vw;
+}
+.service_flow_img {
+    display: block;
+    height:6vw;
+}
+.service_flow_text {
+    width: 18vw;
+    text-align: center;
+    font: normal normal bold 1.2vw/2vw Kozuka Gothic Pr6N;
+    color: #FF4D8E;
+    padding-top: 1vw;
+}
+.service_flow_main {
+    width:100vw;
+    padding:10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.service_flow_graph {
+    width:1vw;
+    display: block;
+}
+.service_flow_content {
+    text-align: center;
+    width:78vw;
+}
+.service_flow_title {
+    font: normal normal bold 1.6vw/3vw Kozuka Gothic Pr6N;
+    letter-spacing: 0px;
+    color: #FF4D8E;
+    margin-bottom: 2.5vw;
+}
+.service_flow_sns {
+    width: 25vw;
+}
+.service_flow_ex1 {
+    font: normal normal bold 1.5vw/2vw Hiragino Kaku Gothic Pro;
+    color: #000000;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+.service_flow_ex2 {
+    font: normal normal normal 1.3vw/2vw メイリオ;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.service_flow_content_img {
+    width: 50vw;
+}
+.service_humans {
+    background-image: url(../img/service_humans.png);
+    width:100vw;
+    height: 57vw;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20vw;
+    padding-bottom: 0vw;
+    margin-top: -23vw;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    color: #000000;
+}
+.plan_btn {
+    width: 12vw;
+    margin-bottom: 1.5vw;
+    display: block;
+    margin: 0 auto 1.5vw;
+}
+
+
