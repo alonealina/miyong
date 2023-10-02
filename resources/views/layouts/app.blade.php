@@ -77,6 +77,9 @@
 
             @yield('content')
 
+            @yield('socialLink')
+
+            @yield('contact')
 
         </body>
     </div>
