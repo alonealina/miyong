@@ -169,6 +169,10 @@ header {
     font-weight: bold;
 }
 
+.header_margin {
+    margin-top:5vw;
+}
+
 .main_img {
     width:100%;
 }
