@@ -27,6 +27,11 @@ class MiyongController extends Controller
         return view('hotel');
     }
 
+    public function sample()
+    {
+        return view('sample');
+    }
+
     public function contact()
     {
         return view('contact');
