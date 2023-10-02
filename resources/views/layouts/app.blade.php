@@ -28,7 +28,7 @@
                 <a href="{{ route('service_flow') }}" class="header_a header_3">サービスの流れ</a>
                 <a href="{{ route('index') }}" class="header_a header_4">可能手術内容</a>
                 <a href="{{ route('index') }}" class="header_a header_5">実施例サンプル</a>
-                <a href="{{ route('index') }}" class="header_a header_6">提携クリニック</a>
+                <a href="{{ route('cooperation') }}" class="header_a header_6">提携クリニック</a>
                 <a href="{{ route('hotel') }}" class="header_a header_7">提携ホテル</a>
             </header>
             <div class="hamburger-menu">
