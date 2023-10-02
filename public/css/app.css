@@ -397,6 +397,7 @@ section.common {
 }
 
 h2.pinkBorder {
+    font-family: 'KozGoPr6N-R';
     display: inline-block;
     border-bottom: 4px solid #FF94BB;
     padding: 1vw 1vw 1vw 4vw;
@@ -406,7 +407,7 @@ h2.pinkBorder {
     padding-right: 1vw;
     width: 20vw;
     text-align: right;
-    font: normal normal bold 2vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal bold 2vw/3vw 'KozGoPr6N-R';
     color: #000000;
     border-bottom: 3px solid #FF94BB;
     margin-bottom: 4vw;
@@ -487,7 +488,7 @@ p.footer {
 /* sec2 */
 
 section.top_section_2 {
-    top: 1vw;
+    margin-top: -15vw;
 }
 
 .top_section_2 .img_wrapper {
@@ -999,10 +1000,19 @@ div.coop_text h3 {
     background-image: url(../img/dotbg.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper_dotbg_inner {
     padding: 5vw 30vw;
+}
+
+.wrapper_dotbg .sec_title {
+    padding-right: 1vw;
+    width: 20vw;
+    text-align: right;
+    color: #000000;
+    border-bottom: 3px solid #FF94BB;
 }
 
 /* company関連 */
@@ -1031,6 +1041,31 @@ div.coop_text h3 {
 
 .wrapper_dotbg_inner  a.send_btn {
     margin-left: 30vw;
+}
+
+/* news関連（子ページ含む） */
+.news_section1 .wrapper_dotbg {
+    padding: 3vw 0;
+}
+
+section.news_section1 {
+    margin-top: 7vw;
+}
+
+.wrapper_dotbg .sec8_news {
+    margin-bottom: 1.2vw;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #000;
+    background-color: #CCC;
+    border-color: #CCC;
+}
+
+/* article関連 */
+.article {
+    width: 50%;
+    margin: 3vw auto;
 }
 
 

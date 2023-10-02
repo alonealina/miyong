@@ -42,6 +42,16 @@ class MiyongController extends Controller
         return view('cooperation');
     }
 
+    public function news()
+    {
+        return view('news');
+    }
+
+    public function article()
+    {
+        return view('article');
+    }
+
     public function contactform()
     {
         return view('contactform');

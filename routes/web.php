@@ -11,6 +11,8 @@ Route::get('hotel', 'App\Http\Controllers\MiyongController@hotel')->name('hotel'
 Route::get('sample', 'App\Http\Controllers\MiyongController@sample')->name('sample');
 Route::get('contact', 'App\Http\Controllers\MiyongController@contact')->name('contact');
 Route::get('company', 'App\Http\Controllers\MiyongController@company')->name('company');
+Route::get('news', 'App\Http\Controllers\MiyongController@news')->name('news');
+Route::get('article', 'App\Http\Controllers\MiyongController@article')->name('article');
 Route::get('contactform', 'App\Http\Controllers\MiyongController@contactform')->name('contactform');
 Route::post('mail_send', 'App\Http\Controllers\MiyongController@mail_send')->name('mail_send');
 Route::get('mail_comp', 'App\Http\Controllers\MiyongController@mail_comp')->name('mail_comp');

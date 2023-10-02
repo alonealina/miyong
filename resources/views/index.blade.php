@@ -176,7 +176,6 @@
             <div class="sec8_news_genre">一般</div>
             <div class="sec8_news_title">テスト</div>
         </a>
-
     </div>
     <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
     <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
