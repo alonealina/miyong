@@ -12,9 +12,9 @@ class MiyongController extends Controller
         return view('index');
     }
 
-    public function work()
+    public function why()
     {
-        return view('work');
+        return view('why');
     }
 
     public function contact()

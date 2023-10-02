@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>Miyong</title>
+        <title>Miyong Support</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
 
         <link rel="icon" type="image/png" href="{{ asset('img/favicon.ico') }}">
@@ -76,10 +76,6 @@
 
 
             @yield('content')
-
-            @yield('socialLink')
-
-            @yield('contact')
 
         </body>
     </div>
