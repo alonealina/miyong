@@ -74,6 +74,7 @@
 
             </div>
 
+            <div class="header_margin"></div>
 
             @yield('content')
 
