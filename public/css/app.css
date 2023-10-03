@@ -448,7 +448,10 @@ p.footer {
 }
 
 .top_section_1 .floating_box_left img {
-    width: 100%;
+    width: 60%;
+    margin: 3vw 0 0 18vw;
+    border-radius: 20px;
+    opacity: 1;
 }
 
 .top_section_1 .floating_box_right {
@@ -459,7 +462,7 @@ p.footer {
 .top_section_1 .floating_box_right h2 {
     color: #FF4D8E;
     font-size: 1.8vw;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
 }
 
 .top_section_1 .floating_box_right {
@@ -468,34 +471,40 @@ p.footer {
 
 .top_section_1 .floating_box_right p {
     color: #707070;
-    font: normal normal normal 1.2vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 0.8vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0.1vw;
     word-wrap: break-word;
 }
 
 .text_end {
-    width: 80vw;
-    background-color: #FFF2F7;
-    padding: 2vw 0 6vw 33.5vw ;
+    width: 75vw;
+    background-color: #FFB1CF;
+    border-radius: 0px 0px 0px 20px;
+    color: #FFFFFF;
+    padding: 1vw 0 1vw 28.5vw ;
     margin: 0;
     position: relative;
     margin-right: 0;
     margin-left: auto;
-    top: -22vw;
+    top: -13vw;
     z-index: 10;
-    font: normal normal bold 1.6vw/3.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/2.2vw Kozuka Gothic Pr6N;
     letter-spacing: 1px;
 }
 
 /* sec2 */
 
 section.top_section_2 {
-    margin-top: -15vw;
+    margin-top: -5vw;
 }
 
 .top_section_2 .img_wrapper {
     overflow: hidden;
     padding: 2vw;
+}
+
+.top_section_2 img.hospital_bg {
+    border-radius: 30px 30px 0px 0px;
 }
 
 .top_section_2 img {
@@ -514,7 +523,8 @@ section.top_section_2 {
 }
 
 .sec2_list li {
-    width: 18vw;
+    width: auto;
+    margin-right: 1vw;
 }
 
 .sec2_list li:last-child {
@@ -524,7 +534,8 @@ section.top_section_2 {
 .sec2_list h3 {
     text-align: center;
     margin-top: 1vw;
-    font: normal normal normal 1.8vw/2.4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.0vw/1.8vw Kozuka Gothic Pr6N;
+    color: #707070;
 }
 
 .pink_btn {
@@ -537,9 +548,14 @@ section.top_section_2 {
     font: normal normal bold 1.5vw/1.8vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     display: block;
-    margin-right: 5vw;
+    margin-right: 2vw;
     margin-left: auto;
 }
+
+.top_section_2 .pink_btn {
+    margin: auto;
+}
+
 .top_section_2 .pink_yazi, .pink_yazi {
     width: 0.5vw;
     float: right;
@@ -554,13 +570,15 @@ section.top_section_2 {
 
 .sec3_bg {
     background-image: url(../img/sec3_bg.png);
-    padding-top:1.5vw;
+    border-radius: 20px;
+    padding-top:0.5vw;
     padding-left:4vw;
+    margin-left: 10vw;
     width:70vw;
     background-position: center;
     background-size: cover;
-    height: 28vw;
-    font: normal normal normal 1.3vw/3.5vw Kozuka Gothic Pr6N;
+    height: 25vw;
+    font: normal normal normal 1vw/2.5vw Kozuka Gothic Pr6N;
     letter-spacing: 0.08vw;
     color: #FFFFFF;
 }
@@ -569,41 +587,42 @@ section.top_section_2 {
     display: flex;
     justify-content: space-between;
     padding-left: 5vw;
-    margin-top: -20vw;
+    margin-top: -17vw;
 }
 .sec3_text {
     width: 33vw;
-    padding-top: 23vw;
-    font: normal normal normal 1.3vw/3vw Kozuka Gothic Pr6N;
+    padding: 20vw 0 0 10vw;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0.08vw;
     color: #707070;
 }
 .sec3_dummy {
-    width: 55vw;
-    height:40vw;
+    width: 40vw;
+    height: 30vw;
+    border-radius: 20px;
+    margin-right: 13vw;
 }
 .sec3_bg_box {
     width: 45vw;
     text-align: right;
-    font: normal normal normal 1.8vw/5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1vw Kozuka Gothic Pr6N;
     color: #FFFFFF;
-    padding-right:10vw;
+    padding-right:25vw;
     border-bottom: solid 1px #fff;
-    margin-bottom: 3vw;
+    margin: 5vw 0 3vw 0;
 }
 .sec3_span {
-    font: normal normal 500 3vw/5vw Kozuka Gothic Pr6N;
+    font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
 }
 .sec3_flex_title {
-    text-align: center;
     font: normal normal bold 2.5vw/2.5vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .miyong_title {
     text-align: center;
-    font: normal normal bold 3vw/4vw Kozuka Gothic Pr6N;
+    font: normal normal bold 2vw/4vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     margin:7vw 0;
 }
@@ -645,41 +664,42 @@ section.top_section_2 {
 /* sec5 */
 .top_section_5 {
     background-image: url(../img/sec5_bg.png);
-    width:100vw;
-    height:30vw;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-top: 4vw;
     padding-bottom: 4vw;
-    margin-top: -1.5vw;
+    margin: -1.5vw 5vw 0 5vw;
 }
 .sec5_phone_bg {
     background-image: url(../img/sec5_phone_bg.png);
-    width:75vw;
+    width:45vw;
     height:100%;
     background-position: center;
     background-size: cover;
     margin:auto;
+    padding: 2vw 5vw 0 0;
     border-radius: 1vw;
-    padding-left: 36vw;
-    padding-right: 4vw;
-    padding-top: 4vw;
-    text-align: center;
-    font: normal normal bold 1.8vw/3vw Kozuka Gothic Pr6N;
+    text-align: right;
+    font: normal normal normal 0.8vw/1.2vw Kozuka Gothic Pr6N;
     letter-spacing: 0.1vw;
     color: #FF4D8E;
 }
 .sec5_span {
-    font: normal normal 500 3vw/5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
 }
 .sec5_icon_list {
     width:28vw;
-    display: flex;
-    justify-content: space-between;
-    margin:2vw auto;
+    padding: 2vw 0;
+    margin-left: 12vw;
 }
+
+.sec5_icon_list a {
+    margin-right: 1vw;
+}
+
 .sec5_icon {
-    width:4vw;
+    width:2.5vw;
 }
 
 
@@ -729,12 +749,14 @@ section.top_section_2 {
     display: block;
     text-align: center;
     text-decoration: underline;
-    font: normal normal normal 1.6vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.2vw/5.2vw Kozuka Gothic Pr6N;
     color: #000000;
 }
 .sec7_hotel img {
     width:100%;
     display: block;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 77, 142, 0.64),-5px -5px 10px rgba(255, 255, 255, 0.64);
 }
 
 /* sec8 */
@@ -792,15 +814,7 @@ section.top_section_2 {
     height: 20vw;
 }
 .send_btn {
-    background: #707070 0% 0% no-repeat padding-box;
-    border-radius: 5px;
-    display: block;
-    width: 7vw;
-    text-align: center;
-    padding: 0.8vw 0;
-    color: #fff;
-    margin-left: 55vw;
-    font: normal normal normal 1.3vw/1.6vw Arial;
+    margin-left: 66.5vw;
 }
 
 p.contact {
@@ -814,17 +828,17 @@ p.contact {
 section.why_section1 {
     margin: 0;
     background-image: url(../img/why_sec1_bg.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right -15vw center;
 }
 
 .why_section1 p {
-    padding: 5vw 50vw 5vw 3vw;
+    padding: 10vw 25vw;
     color: #707070;
     font: normal normal normal 1.2vw/3vw Kozuka Gothic Pr6N;
     letter-spacing: 0.1vw;
-    line-height: 5vw;
+    line-height: 3vw;
     word-wrap: break-word;
 }
 
@@ -1029,21 +1043,39 @@ div.coop_text p {
 
 /* company関連 */
 
+.coop_section1  {
+    justify-content: center;
+}
+
+.coop_section1 .wrapper_dotbg_inner {
+    width: 25%;
+    padding: 0;
+}
+
+.coop_section1 .wrapper_dotbg_inner:first-child {
+    margin-right: 3vw;
+}
+
 .wrapper_dotbg_inner h3 {
     font-size: 1.3vw;
-    font-weight: bold;
     line-height: 3vw;
     border-bottom: 2px solid #FF94BB;
     margin-bottom: 1vw;
 }
 
+.wrapper_dotbg_inner p {
+    font-size: 0.8vw;
+}
+
 .wrapper_dotbg_inner input {
-    border: #707070 solid 2px;
+    border: #FF94BB solid 2px;
+    box-shadow: 0px 0px 6px #FF94BB;
     border-radius: 5px;
 }
 
 .wrapper_dotbg_inner textarea {
-    border: #707070 solid 2px;
+    border: #FF94BB solid 2px;
+    box-shadow: 0px 0px 6px #FF94BB;
     border-radius: 5px;
 }
 
@@ -1052,7 +1084,7 @@ div.coop_text p {
 }
 
 .wrapper_dotbg_inner  a.send_btn {
-    margin-left: 30vw;
+    margin-left: 41.5vw;
 }
 
 /* news関連（子ページ含む） */
@@ -1093,7 +1125,12 @@ section.news_section1 {
 }
 
 .article a {
-    font-size: 1vw;
+    display: block;
+    border: 1px solid #FF4D8E;
+    width: 8vw;
+    padding: 0.1vw;
+    margin: 0;
+    font-size: 0.8vw;
 }
 
 .article nav {
@@ -1107,6 +1144,10 @@ section.news_section1 {
 
 .article_date p:first-child{
     margin-right: 2vw;
+}
+
+.article nav span {
+    margin-left: 1vw;
 }
 
 /* 実施例サンプル関連 */

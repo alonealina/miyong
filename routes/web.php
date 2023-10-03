@@ -16,3 +16,4 @@ Route::get('article', 'App\Http\Controllers\MiyongController@article')->name('ar
 Route::get('contactform', 'App\Http\Controllers\MiyongController@contactform')->name('contactform');
 Route::post('mail_send', 'App\Http\Controllers\MiyongController@mail_send')->name('mail_send');
 Route::get('mail_comp', 'App\Http\Controllers\MiyongController@mail_comp')->name('mail_comp');
+Route::get('slicktest', 'App\Http\Controllers\MiyongController@slicktest')->name('slicktest'); // slick実装テストなので動作確認後に削除でOK

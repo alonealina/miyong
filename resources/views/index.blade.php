@@ -12,13 +12,10 @@
     <div class="floating_box_right">
         <h2>美容大国<b>「韓国」</b>での美容整形をフルサポート</h2>
         <p>
-            何かと心配になる美容整形、それも韓国での施術となれば<br>
-            尚更のことと思います。<br>          
-            言葉の問題・滞在期間中の問題・アフターケアの問題などなど<br>
-            様々な不安があるのでは？<br>
-            私たちMiyong Supportは日本と韓国それぞれに独自スタッフを<br>
-            滞在させており、お一人お一人に最適なプランの策定とご説明を<br>
-            貴女が納得するまで行います。
+            何かと心配になる美容整形、それも韓国での施術となれば尚更のことと思います。<br>          
+            言葉の問題・滞在期間中の問題・アフターケアの問題などなど様々な不安があるのでは？<br>
+            私たちMiyong Supportは日本と韓国それぞれに独自スタッフを滞在させており、<br>
+            お一人お一人に最適なプランの策定とご説明を貴女が納得するまで行います。
         </p>
     </div>
 </section>
@@ -27,7 +24,7 @@
 <section id="section_2" class="top_section_2 common">
     <h2 class="pinkBorder">提携クリニック</h2>
     <div class="img_wrapper">
-        <img src="{{ asset('img/sec2_bg.png') }}">
+        <img src="{{ asset('img/sec2_bg.png') }}" class="hospital_bg">
     </div>
     <div class="list_wrapper">
         <ul class="sec2_list">
@@ -36,11 +33,12 @@
             <li><img src="{{ asset('img/sec2_list3.png')}}"><h3>ユウォンジェ院長</h3></li>
             <li><img src="{{ asset('img/sec2_list4.png')}}"><h3>ユアンナ院長</h3></li>
             <li><img src="{{ asset('img/sec2_list5.png')}}"><h3>パクイヒョン院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list6.png')}}"><h3>チョスンウ院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list7.png')}}"><h3>イジョエン院長</h3></li>
         </ul>
     </div>
 
     <a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
 </section>
 
 <section id="section_3" class="top_section_3 common">
@@ -114,8 +112,7 @@
         ※その他韓国滞在中は完全サポート（日本語対応）
     </div>
 
-    <a href="{{ route('index') }}" class="pink_btn" style="margin-top: -4vw;">もっと詳しく</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    <a href="{{ route('index') }}" class="pink_btn" style="margin-top: -4vw;">もっと見る</a>
 
 </section>
 
@@ -131,7 +128,6 @@
     たくさんの外国人が韓国の美容外科を訪れています。
 
     <a href="{{ route('why') }}" class="pink_btn" style="margin: 3vw auto 0;">もっと詳しく</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi" style="margin-right: 23.4vw;">
 </section>
 
 <section id="section_7" class="top_section_7 common">
@@ -154,8 +150,7 @@
             Aiden by BEST WESTERN
         </a>
     </div>
-    <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    <a href="{{ route('hotel') }}" class="pink_btn">一覧へ</a>
 </section>
 
 <section id="section_8" class="top_section_8 common">
@@ -177,8 +172,7 @@
             <div class="sec8_news_title">テスト</div>
         </a>
     </div>
-    <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    <a href="{{ route('news') }}" class="pink_btn">一覧へ</a>
 </section>
 
 @include('item.contact')

@@ -3,9 +3,11 @@
 
 @section('content')
 
+<div class=" wrapper_dotbg">
+
 <div class="page_title">お知らせ</div>
 
-<section id="section_1" class="news_section1 wrapper_dotbg">
+<section id="section_1" class="news_section1">
     <div class="news_container">
         <div class="sec8_news_list">
             <a href="{{ route('article') }}" class="sec8_news">
@@ -78,6 +80,8 @@
         </nav>
     </div>
 </section>
+
+</div>
 
 <p class="footer">Copyright（C）Beauty Support All rights reserved.</p>
 

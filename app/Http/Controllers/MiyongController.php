@@ -62,6 +62,15 @@ class MiyongController extends Controller
         return view('company');
     }
 
+    //slickテスト実装なので動作確認後に削除
+
+    public function slicktest()
+    {
+        return view('slicktest');
+    }
+
+    //ここまで削除
+
     public function mail_send(Request $request)
     {
     	$data = ['name' => $request->name,
