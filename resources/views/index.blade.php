@@ -39,7 +39,7 @@
         </ul>
     </div>
 
-    <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
+    <a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
     <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
 </section>
 

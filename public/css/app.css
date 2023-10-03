@@ -397,10 +397,13 @@ section.common {
 }
 
 h2.pinkBorder {
-    font-family: 'KozGoPr6N-R';
-    display: inline-block;
-    border-bottom: 4px solid #FF94BB;
-    padding: 1vw 1vw 1vw 4vw;
+    padding-right: 1vw;
+    width: 20vw;
+    text-align: right;
+    font: normal normal normal 2vw/3vw 'KozGoPr6N-R';
+    color: #000000;
+    border-bottom: 3px solid #FF94BB;
+    margin-bottom: 4vw;
 }
 
 .sec_title {
@@ -427,7 +430,6 @@ h2.pinkBorder {
 p.footer {
     font-size: 1vw;
     text-align: center;
-    margin-top: 5vw;
 }
 
 /* sec1 */
@@ -1009,7 +1011,7 @@ div.coop_text p {
 .wrapper_dotbg {
     background-image: url(../img/dotbg.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -1059,7 +1061,7 @@ div.coop_text p {
 }
 
 section.news_section1 {
-    margin-top: 7vw;
+    margin-top: 3vw;
 }
 
 .wrapper_dotbg .sec8_news {
@@ -1078,6 +1080,34 @@ section.news_section1 {
     margin: 3vw auto;
 }
 
+.article h3 {
+    width: 100%;
+    font-size: 2vw;
+    text-align: center;
+    line-height: 2.5vw;
+    border-bottom: 2px solid #FF94BB;
+}
+
+.article p {
+    font-size: 1vw;
+}
+
+.article a {
+    font-size: 1vw;
+}
+
+.article nav {
+    margin-top: 5vw;
+}
+
+.article_date {
+    display: flex;
+    margin: 1vw 0;
+}
+
+.article_date p:first-child{
+    margin-right: 2vw;
+}
 
 /* 実施例サンプル関連 */
 

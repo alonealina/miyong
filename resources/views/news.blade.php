@@ -3,56 +3,57 @@
 
 @section('content')
 
-<section id="section_1" class="news_section1 news">
-    <h2 class="pinkBorder">お知らせ</h2>
-    <div class="wrapper_dotbg">
+<div class="page_title">お知らせ</div>
+
+<section id="section_1" class="news_section1 wrapper_dotbg">
+    <div class="news_container">
         <div class="sec8_news_list">
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>
             </a>
-            <a href="{{ route('index') }}" class="sec8_news">
+            <a href="{{ route('article') }}" class="sec8_news">
                 <div class="sec8_news_date">2023/04/01</div>
                 <div class="sec8_news_genre">一般</div>
                 <div class="sec8_news_title">textextextextextextextextextextextext</div>

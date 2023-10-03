@@ -3,14 +3,26 @@
 
 @section('content')
 
-<section id="section_1" class="news_section1 news">
+<section id="section_1" class="news_section1 wrapper_dotbg">
     <h2 class="pinkBorder">お知らせ</h2>
-    <div class="wrapper_dotbg">
+    <div class="article_container">
         <div class="article">
             <h3>タイトル</h3>
-            <p>2023/04/01</p><p>一般</p>
-            <p>texttexttexttexttexttexttexttexttexttext</p>
-            <nav aria-label="Page navigation example">
+            <div class="article_date">
+                <p>2023/04/01</p><p>一般</p>
+            </div>
+            <p>texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+               texttexttexttexttexttexttexttexttexttext
+            </p>
+            <nav>
                 <a href="{{ route('news') }}">一覧へ戻る</a>
             </nav>
         </div>

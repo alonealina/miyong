@@ -3,9 +3,10 @@
 
 @section('content')
 
+<div class="page_title">提携クリニック</div>
+
 <section id="section_1" class="coop_section1 coop">
     <div>
-        <h2 class="pinkBorder">提携クリニック</h2>
         <div class="img_wrapper"><img src="{{ asset('img/cooperation_bg.png')}}"></div>
         <div class="img_btn"><img src="{{ asset('img/cooperation_btn.png')}}"></div>
     </div>
@@ -17,7 +18,7 @@
         <p>
             分野別の経験豊富な専門医で構成された安心と実績のクリニックです。<br>
             韓国以外にも全国に展開しており、19年の歴史を誇ります。<br>
-            詳しくはHPへ。https://ja.e-dream.co.kr/01_intro/index.php?
+            詳しくは<a href="https://ja.e-dream.co.kr/01_intro/index.php?">HP</a>へ。
         </p>
     </div>
     <div class="img_wrapper">
@@ -40,7 +41,7 @@
         <p>
             2003年から美容整形・皮膚科を経営しているアジア最大のネットワーク病院です。<br>
             6種類の専門センターを運営しており、幅広い分野別の専門医があなたの理想を叶えます。<br>
-            詳しくはHPへ。https://jplienjang.com/
+            詳しくは<a href="https://jplienjang.com/">HP</a>へ。
         </p>
     </div>
     <div class="img_wrapper">
