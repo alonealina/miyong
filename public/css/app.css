@@ -919,6 +919,10 @@ section.why_section1 {
 
 /* cooperation関連 */
 
+section.coop_common {
+    margin-top: 0;
+}
+
 .coop_section1 h2 {
     margin-top: 2vw;
     margin-bottom: 1vw;
@@ -943,6 +947,12 @@ div.coop_text  {
 }
 
 div.coop_text h3 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+div.coop_text p {
+    font-size: 1vw;
     margin-bottom: 1vw;
 }
 
