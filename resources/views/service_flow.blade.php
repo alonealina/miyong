@@ -97,18 +97,7 @@
     韓国で生まれ変わった貴女に出会いましょう！
 </div>
 
-<section id="section_5" class="top_section_5" style="margin-top: 0;">
-    <div class="sec5_phone_bg">
-        ご相談は <span class="sec5_span">24時間</span> いつでも受付中!!<br>
-        LINEやInstagramから気軽にお問合せ
-        <div class="sec5_icon_list">
-            <a href="#!" class=""><img src="{{ asset('img/line.png') }}" class="sec5_icon"></a>
-            <a href="#!" class=""><img src="{{ asset('img/kakao.png') }}" class="sec5_icon"></a>
-            <a href="#!" class=""><img src="{{ asset('img/insta.png') }}" class="sec5_icon"></a>
-            <a href="#!" class=""><img src="{{ asset('img/twitter.png') }}" class="sec5_icon"></a>
-        </div>
-    </div>
-</section>
+<p class="footer">Copyright（C）Beauty Support All rights reserved.</p>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/index.js') }}"></script>

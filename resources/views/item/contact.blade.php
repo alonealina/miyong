@@ -20,7 +20,7 @@
         </div>
         <input type="hidden" name="recaptchaToken" id="recaptchaToken">
         <div class="g-recaptcha mt-3" data-sitekey="6Lc8TFonAAAAAKJqDjHHXEF-E9R-ODofyBtg6GMj" data-callback="callback_recaptcha"></div>
-        <a href="#!" onclick="clickMailButton()" class="send_btn">送信</a>
+        <a href="#!" onclick="clickMailButton()" class="send_btn"><img src="{{ asset('img/send_btn.png')}}"></a>
         <div class="error_message" id="error_message"></div>
     </form>
     <p class="contact">Copyright（C）Beauty Support All rights reserved.</p>
