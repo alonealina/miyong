@@ -10,6 +10,7 @@
 <section id="section_1" class="contact_section1 contact">
     <div class="wrapper_dotbg">
         <div class="wrapper_dotbg_inner">
+        <div class="contact_wrapper">
             <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="contact_div">
@@ -33,6 +34,7 @@
             <a href="#!" onclick="clickMailButton()" class="send_btn"><img src="{{ asset('img/send_btn.png')}}"></a>
             <div class="error_message" id="error_message"></div>
             </form>
+        </div>
         </div>
     </div>
 </section>
