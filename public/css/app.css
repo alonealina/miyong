@@ -791,6 +791,12 @@ section.top_section_2 {
     height:50vw;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #FF94BB 100%) 0% 0% no-repeat padding-box;
 }
+
+.contact_wrapper {
+    width: 50vw;
+    margin: auto;
+}
+
 .contact_div {
     width: 50vw;
     margin: 1vw auto;
@@ -814,7 +820,8 @@ section.top_section_2 {
     height: 20vw;
 }
 .send_btn {
-    margin-left: 66.5vw;
+    display: flex;
+    justify-content: flex-end;
 }
 
 p.contact {
