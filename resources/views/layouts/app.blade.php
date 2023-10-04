@@ -98,13 +98,13 @@
                 <div class="menu-content_work">
                     <div class="header_flex">
                         <div class="header_column">
-                            <a href="{{ route('index') }}" class="header_a">お知らせ</a>
+                            <a href="{{ route('news') }}" class="header_a">お知らせ</a>
                             <a href="{{ route('index') }}" class="header_a">サービス内容</a>
                             <a href="{{ route('service_flow') }}" class="header_a">サービスの流れ</a>
                             <a href="{{ route('cooperation') }}" class="header_a">提携クリニック</a>
                             <a href="{{ route('hotel') }}" class="header_a">提携ホテル</a>
-                            <a href="{{ route('index') }}" class="header_a">お問い合わせ</a>
-                            <a href="{{ route('index') }}" class="header_a">運営会社</a>
+                            <a href="{{ route('contactform') }}" class="header_a">お問い合わせ</a>
+                            <a href="{{ route('company') }}" class="header_a">運営会社</a>
                         </div>
 
                         <div class="header_column">

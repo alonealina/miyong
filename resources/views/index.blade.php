@@ -112,7 +112,7 @@
         ※その他韓国滞在中は完全サポート（日本語対応）
     </div>
 
-    <a href="{{ route('index') }}" class="pink_btn" style="margin-top: -4vw;">もっと見る</a>
+    <a href="{{ route('service_flow') }}" class="pink_btn" style="margin-top: -4vw;">もっと見る</a>
 
 </section>
 
@@ -221,7 +221,7 @@
     </div>
 </div>
 
-<a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
+<a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
 
 
 
@@ -291,7 +291,7 @@
         ※その他韓国滞在中は完全サポート（日本語対応）
     </div>
 
-    <a href="{{ route('index') }}" class="pink_btn">もっと詳しく</a>
+    <a href="{{ route('service_flow') }}" class="pink_btn">もっと詳しく</a>
     
 
 </section>
@@ -339,7 +339,7 @@
             Aiden by BEST WESTERN
         </a>
     </div>
-    <a href="{{ route('index') }}" class="pink_btn">もっと詳しく</a>
+    <a href="{{ route('hotel') }}" class="pink_btn">もっと詳しく</a>
     
 </section>
 
@@ -363,7 +363,7 @@
         </a>
 
     </div>
-    <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
+    <a href="{{ route('news') }}" class="pink_btn">一覧へ</a>
     
 </section>
 
