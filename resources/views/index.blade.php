@@ -198,8 +198,7 @@
     言葉の問題・滞在期間中の問題・アフターケアの問題などなど<br>
     様々な不安があるのでは？<br>
     私たちMiyong Supportは日本と韓国それぞれに独自スタッフを<br>
-    滞在させており、お一人お一人に最適なプランの策定とご説明を<br>
-    貴女が納得するまで行います。
+    滞在させており、お一人お一人に最適なプランの策定と<br>ご説明を貴女が納得するまで行います。
 </div>
 <div class="text_end_sp">「不安と心配」を解消して「貴女の希望する姿」への<br>サポートをさせてください。</div>
 
@@ -223,7 +222,7 @@
 </div>
 
 <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
-<img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+
 
 
 
@@ -292,12 +291,21 @@
         ※その他韓国滞在中は完全サポート（日本語対応）
     </div>
 
-    <a href="{{ route('index') }}" class="pink_btn" style="margin-top: -4vw;">もっと詳しく</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    <a href="{{ route('index') }}" class="pink_btn">もっと詳しく</a>
+    
 
 </section>
 
-@include('item.social_link')
+<section id="section_5" class="top_section_5">
+    ご相談は <span class="sec5_span">24時間</span> いつでも受付中!!<br>
+    LINEやInstagramから気軽にお問合せ
+    <div class="sec5_icon_list">
+        <a href="#!" style=""><img src="http://localhost:8000/img/line.png" class="sec5_icon"></a>
+        <a href="#!" style="padding-top: 12vw;"><img src="http://localhost:8000/img/insta.png" class="sec5_icon"></a>
+        <a href="#!" style=""><img src="http://localhost:8000/img/kakao.png" class="sec5_icon"></a>
+        <a href="#!" style="padding-top: 12vw;"><img src="http://localhost:8000/img/twitter.png" class="sec5_icon"></a>
+    </div>
+</section>
 
 <section id="section_6" class="top_section_6 common">
     <div class="sec6_title1">なぜ韓国は美容大国なのか？</div>
@@ -305,11 +313,10 @@
     K-POP、韓国ドラマなど世界的な韓流ブームに伴い、<br>
     韓国は世界のビューティートレンドをリードしています。<br>
     「K-Beauty」に憧れる外国人にとって韓国の美容整形手術は<br>
-    「医術」を越えた<span class="sec6_span">「人生のターニングポイント」</span>となり、<br>
-    たくさんの外国人が韓国の美容外科を訪れています。
+    「医術」を越えた<span class="sec6_span">「人生のターニングポイント」</span><br>
+    となり、たくさんの外国人が韓国の美容外科を訪れています。
 
-    <a href="{{ route('why') }}" class="pink_btn" style="margin: 3vw auto 0;">もっと詳しく</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi" style="margin-right: 23.4vw;">
+    <a href="{{ route('why') }}" class="pink_btn" style="margin: 30px auto 0;">もっと詳しく</a>
 </section>
 
 <section id="section_7" class="top_section_7 common">
@@ -332,8 +339,8 @@
             Aiden by BEST WESTERN
         </a>
     </div>
-    <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    <a href="{{ route('index') }}" class="pink_btn">もっと詳しく</a>
+    
 </section>
 
 <section id="section_8" class="top_section_8 common">
@@ -357,10 +364,30 @@
 
     </div>
     <a href="{{ route('index') }}" class="pink_btn">一覧へ</a>
-    <img src="{{ asset('img/pink_yazi.png')}}" class="pink_yazi">
+    
 </section>
 
-@include('item.contact')
+<section id="section_9" class="top_section_9">
+    <div class="sec_title">お問い合わせ</div>
+    <div class="contact_wrapper">
+    <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
+        @csrf
+        <div class="contact_name">お名前</div>
+        <input class="contact_text" placeholder="お名前" name="name" type="text" id="name">
+        <div class="contact_name">メールアドレス</div>
+        <input class="contact_text" placeholder="メールアドレス" name="mail" type="text" id="mail">
+        <div class="contact_name">タイトル</div>
+        <input class="contact_text" placeholder="例)サービスについて、予約について" name="title" type="text" id="title">
+        <div class="contact_name">お問い合わせ内容</div>
+        <textarea class="contact_textarea" placeholder="" name="content" id="content"></textarea>
+        <input type="hidden" name="recaptchaToken" id="recaptchaToken">
+        <div class="g-recaptcha mt-3" data-sitekey="6Lc8TFonAAAAAKJqDjHHXEF-E9R-ODofyBtg6GMj" data-callback="callback_recaptcha"></div>
+        <a href="#!" onclick="clickMailButton()" class="send_btn"><img src="{{ asset('img/send_btn.png')}}"></a>
+        <div class="error_message" id="error_message"></div>
+    </form>
+    </div>
+    <p class="contact">Copyright（C）Beauty Support All rights reserved.</p>
+</section>
 
 
 

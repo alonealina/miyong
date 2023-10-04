@@ -1369,10 +1369,10 @@ section.news_section1 {
         font: normal normal bold 20px/25px Kozuka Gothic Pr6N;
     }
     .sec1_text {
-        font: normal normal normal 10px/25px Kozuka Gothic Pr6N;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
         letter-spacing: 0px;
         color: #707070;
-        width: 300px;
+        width: 345px;
         margin: 20px auto;
     }
     .text_end_sp {
@@ -1385,7 +1385,7 @@ section.news_section1 {
         padding-right: 0;
         width: 250px;
         text-align: center;
-        font: normal normal bold 18px/40px Kozuka Gothic Pr6N;
+        font: normal normal normal 16px/40px Kozuka Gothic Pr6N;
         color: #000000;
         border-bottom: 3px solid #FF94BB;
         margin: 50px auto 20px;
@@ -1414,13 +1414,13 @@ section.news_section1 {
         margin-bottom: 10px;
     }
     .pink_btn {
-        border: 2px solid #FF4D8E;
+        border: 1px solid #FF4D8E;
         border-radius: 26px;
-        width: 150px;
-        padding: 15px;
+        width: 120px;
+        padding: 10px;
         text-align: center;
         text-decoration: underline;
-        font: normal normal bold 16px/20px Kozuka Gothic Pr6N;
+        font: normal normal normal 12px/20px Kozuka Gothic Pr6N;
         color: #FF4D8E;
         display: block;
         margin: 30px auto;
@@ -1433,7 +1433,8 @@ section.news_section1 {
     }
     .sec3_bg {
         background-image: url(../img/sec3_bg.png);
-        padding-top: 20px;
+        border-radius: 20px 0 0 20px;
+        padding-top: 5px;
         padding-left: 30px;
         width: 94vw;
         background-position: center;
@@ -1459,24 +1460,203 @@ section.news_section1 {
     }
     .sec3_text {
         width: 270px;
-        padding-top: 30px;
-        font: normal normal normal 12px/30px Kozuka Gothic Pr6N;
+        padding: 20px 0;
+        font: normal normal normal 12px/20px Kozuka Gothic Pr6N;
         letter-spacing: 0.08vw;
         color: #707070;
         margin: auto;
     }
     .sec3_flex_title {
         margin-bottom: 2vw;
-        font: normal normal bold 20px/40px Kozuka Gothic Pr6N;
-        letter-spacing: 0px;
+        font: normal normal normal 16px/40px Kozuka Gothic Pr6N;
+        text-align: center;
         color: #FF4D8E;
     }
     .miyong_title {
-        font: normal normal bold 25px/35px Kozuka Gothic Pr6N;
+        font: normal normal normal 20px/35px Kozuka Gothic Pr6N;
         letter-spacing: 0px;
         color: #FF4D8E;
     }
 
+    .sec4_service_list {
+        width: 100%;
+        padding: 0 3vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+        overflow-x: scroll;
+        flex-direction: column;
+        height: 120px;
+        flex-wrap: wrap;
+    }
+    .sec4_service {
+        text-align: center;
+        font: normal normal normal 12px/15px Kozuka Gothic Pr6N;
+        color: #FF4D8E;
+        padding: 0 20px;
+    }
+    .sec4_text {
+        font: normal normal normal 10px/15px Kozuka Gothic Pr6N;
+        color: #000000;
+        padding-left: 20px;
+    }
+    .sec4_service_list img {
+        display: block;
+        height: 50px;
+        margin: 0 auto 1vw;
+    }
+
+
+    .top_section_5 {
+        background-image: url(../img/sec5_bg_sp.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 13vw;
+        padding-left: 10vw;
+        padding-bottom: 0;
+        margin: 0;
+        width: 100vw;
+        height: 72vw;
+        font: normal normal normal 4vw/8vw Kozuka Gothic Pr6N;
+        letter-spacing: 0.65px;
+        color: #FF4D8E;
+    }
+    .sec5_icon_list {
+        width: 54vw;
+        padding: 5vw 0;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec5_icon {
+        width: 11vw;
+    }
+    .sec5_icon_list a {
+        margin-right: 0vw;
+    }
+    .sec5_span {
+        font: normal normal normal 7vw/8vw Kozuka Gothic Pr6N;
+    }
+
+    .top_section_6 {
+        background-image: url(../img/sec6_bg_sp.png);
+        width: 100vw;
+        height: 450px;
+        background-position: -130px;
+        background-size: 165vw;
+        padding-top: 100px;
+        padding-left: 0;
+        margin-top: 0;
+        text-align: center;
+        font: normal normal normal 12px/30px Kozuka Gothic Pr6N;
+        letter-spacing: 0.08vw;
+        color: #707070;
+    }
+
+    .sec6_title1 {
+        font: normal normal normal 18px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 0.9px;
+        color: #FF4D8E;
+    }
+    .sec6_title2 {
+        font: normal normal normal 12px/20px Kozuka Gothic Pr6N;
+        letter-spacing: 0.6px;
+        color: #FF4D8E;
+        margin-bottom: 25px;
+    }
+    .sec6_span {
+        font: normal normal normal 16px/30px Kozuka Gothic Pr6N;
+        color: #FF4D8E;
+    }
+
+    .sec7_hotel_list {
+        width: 100%;
+        padding: 0 3vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: scroll;
+        height: 200px;
+    }
+    .sec7_hotel {
+        width: 150px;
+        display: block;
+        text-align: center;
+        text-decoration: underline;
+        font: normal normal normal 12px/24px Kozuka Gothic Pr6N;
+        letter-spacing: 0.6px;
+        color: #000000;
+        margin-right: 10px;
+    }
+    .sec7_hotel img {
+        width: 100%;
+        display: block;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(255, 77, 142, 0.64), -5px -5px 10px rgba(255, 255, 255, 0.64);
+        margin-bottom: 10px;
+    }
+
+    .sec8_news_list {
+        width: 90vw;
+        display: block;
+        margin: 3vw auto;
+    }
+    .sec8_news {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
+        letter-spacing: 0.6px;
+        color: #000000;
+        padding: 0;
+        border-bottom: #FF94BB 1px solid;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+    .sec8_news_date {
+        width: 25vw;
+    }
+    .sec8_news_genre {
+        width: 60vw;
+        text-align: left;
+    }
+    .sec8_news_title {
+        width: 90vw;
+    }
+
+    .top_section_9 {
+        height: 800px;
+    }
+    .contact_wrapper {
+        width: 90vw;
+        margin: auto;
+    }
+    .contact_name {
+        width: 90vw;
+        margin: 10px 0 5px;
+    }
+    .contact_text, .contact_textarea {
+        padding: 8px 20px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    .contact_textarea {
+        height: 300px;
+    }
+    .send_btn img {
+        width: 60px;
+        box-shadow: 0px 0px 6px #FFFFFF;
+    }
+    p.contact {
+        margin-top: 70px;
+        text-align: center;
+        color: #fff;
+        font: normal normal normal 10px/40px Kozuka Gothic Pr6N;
+    }
 
 
 
