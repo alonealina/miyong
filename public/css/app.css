@@ -1226,11 +1226,11 @@ section.news_section1 {
         font: normal normal normal 12px/15px メイリオ;
         letter-spacing: 0px;
         background-color: rgba(255, 255, 255, 0.85);
-        border-radius: 10px;
+        border-radius: 0 0 10px 10px;
         width: 84px;
         position: fixed;
-        top: 110px;
-        right: 15px;
+        top: 60px;
+        right: 0px;
         text-align: center;
         height: 85px;
         transition: 0.2s;
@@ -1478,9 +1478,110 @@ section.news_section1 {
         color: #FF4D8E;
     }
 
+    /* why関連 */
 
+    section.why_section1 {
+        margin: 0;
+        background-image: url(../img/why_sec1_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right -15vw center;
+    }
 
+    .why_section1 p {
+        padding: 15vw 5vw;
+        color: #707070;
+        font: normal normal normal 1.2vw/8vw Kozuka Gothic Pr6N;
+        letter-spacing: 0.1vw;
+        word-wrap: break-word;
+    }
 
+    .why_section1 b {
+        color: #FF4D8E;
+        font-size: 3.8vw;
+    }
+
+    /* contact関連 */
+
+    .top_section_9 {
+        width: 100vw;
+        height:100vw;
+        background: initial;
+    }
+
+    .contact_wrapper {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .contact_div {
+        width: 100vw;
+        margin: 1vw auto;
+        display: block;
+        font: normal normal normal 1.3vw/1.6vw Hiragino Kaku Gothic Pro;
+    }
+
+    .contact_name {
+        width: auto;
+        margin: 0.8vw 0 0 2vw;
+        font: normal normal normal 3.3vw/7.6vw Hiragino Kaku Gothic Pro;
+    }
+
+    .contact_text, .contact_textarea {
+        padding:0.7vw 1.2vw;
+        width:90vw;
+        box-shadow: 0px 0px 6px #FF4D8E;
+        border-radius: 5px;
+    }
+
+    .contact_textarea {
+        height: 35vw;
+    }
+
+    /* news,article,contactform,company共通h2 */
+
+    .page_title_sp {
+        width: 37vw;
+        margin: 25vw 0 10vw;
+        padding: 0vw 0vw 0vw 6vw;
+        border-bottom: 1.5px solid #FF4D8E;
+    }
+
+    .send_btn img {
+        width: 15vw;
+    }
+
+    .company_wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .coop_section1 .wrapper_dotbg_inner {
+        width: 100%;
+        padding: 0;
+    }
+
+    .coop_section1 .wrapper_dotbg_inner:first-child {
+        margin: 0;
+    }
+
+    .wrapper_dotbg_inner h3 {
+        line-height: 5vw;
+    }
+
+    .coop_sp {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .coop_sp div {
+        width: 40%;
+    }
+
+    .coop_sp .wrapper_dotbg_inner:first-child {
+        margin-right: 5vw;
+    }
 }
 
 
