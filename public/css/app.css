@@ -824,6 +824,10 @@ section.top_section_2 {
     justify-content: flex-end;
 }
 
+.send_btn img {
+    width: 5vw;
+}
+
 p.contact {
     margin: 2vw 0 0 0;
     text-align: center;
@@ -1092,6 +1096,10 @@ div.coop_text p {
 
 .wrapper_dotbg_inner  a.send_btn {
     margin-left: 41.5vw;
+}
+
+.wrapper_dotbg_inner  a.send_btn img {
+    width: 5vw;
 }
 
 /* news関連（子ページ含む） */
