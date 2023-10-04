@@ -1631,21 +1631,17 @@ section.news_section1 {
     .top_section_9 {
         height: 800px;
     }
-    .contact_wrapper {
-        width: 90vw;
-        margin: auto;
-    }
-    .contact_name {
+    .contact_name_top {
         width: 90vw;
         margin: 10px 0 5px;
     }
-    .contact_text, .contact_textarea {
+    .contact_text_top, .contact_textarea_top {
         padding: 8px 20px;
         width: 100%;
         border: none;
         border-radius: 5px;
     }
-    .contact_textarea {
+    .contact_textarea_top {
         height: 300px;
     }
     .send_btn img {
@@ -1684,7 +1680,7 @@ section.news_section1 {
 
     /* contact関連 */
 
-    .top_section_9 {
+    .contact_section {
         width: 100vw;
         height:100vw;
         background: initial;

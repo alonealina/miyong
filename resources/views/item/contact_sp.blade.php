@@ -1,4 +1,4 @@
-<section id="section_9" class="top_section_9">
+<section id="section_9" class="contact_section">
     <div class="contact_wrapper">
     <form name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
         @csrf
