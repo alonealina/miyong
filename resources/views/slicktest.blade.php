@@ -3,15 +3,6 @@
 
 @section('content')
 
-<div class="page_title">提携クリニック</div>
-
-<section id="section_1" class="coop_section1 coop">
-    <div>
-        <div class="img_wrapper"><img src="{{ asset('img/cooperation_bg.png')}}"></div>
-        <div class="img_btn"><img src="{{ asset('img/cooperation_btn.png')}}"></div>
-    </div>
-</section>
-
 <section id="section_2" class="top_section_2 coop_common">
     <div class="coop_text">
         <h3>ドリーム整形外科</h3>
@@ -37,28 +28,51 @@
     </div>
 </section>
 
-<section id="section_2" class="top_section_2 coop_common">
-    <div class="coop_text">
-        <h3>リエンジャン美容外科</h3>
-        <p>
-            2003年から美容整形・皮膚科を経営しているアジア最大のネットワーク病院です。<br>
-            6種類の専門センターを運営しており、幅広い分野別の専門医があなたの理想を叶えます。<br>
-            詳しくは<a href="https://jplienjang.com/">HP</a>へ。
-        </p>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ asset('img/sec2_list8.png')}}">
+            <div class="carousel-caption">
+                <h3>チャン·ヨンウ院長</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('img/sec2_list9.png')}}">
+            <div class="carousel-caption">
+                <h3>キム·ジョンベ医師</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('img/sec2_list10.png')}}">
+            <div class="carousel-caption">
+                <h3>チェ・サンロク医師</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('img/sec2_list11.png')}}">
+            <div class="carousel-caption">
+                <h3>チェ・サンロク医師</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('img/sec2_list12.png')}}">
+            <div class="carousel-caption">
+                <h3>コ·ヒョソン医師</h3>
+            </div>
+        </div>
     </div>
-    <div class="img_wrapper">
-        <img src="{{ asset('img/sec2_bg2.png') }}">
-    </div>
-    <div class="list_wrapper">
-        <ul class="sec2_list">
-            <li><img src="{{ asset('img/sec2_list8.png')}}"><h3>チャン·ヨンウ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list9.png')}}"><h3>キム·ジョンベ医師</h3></li>
-            <li><img src="{{ asset('img/sec2_list10.png')}}"><h3>チェ・ウォンイル医師</h3></li>
-            <li><img src="{{ asset('img/sec2_list11.png')}}"><h3>チェ・サンロク医師</h3></li>
-            <li><img src="{{ asset('img/sec2_list12.png')}}"><h3>コ·ヒョソン医師</h3></li>
-        </ul>
-    </div>
-</section>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">前へ</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">次へ</span>
+    </a>
+    
+</div>
 
 <p class="footer">Copyright（C）Beauty Support All rights reserved.</p>
 

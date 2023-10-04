@@ -806,6 +806,7 @@ section.top_section_2 {
 }
 .contact_name {
     width: 15vw;
+    margin: 0.8vw 0 0 2vw;
 }
 .contact_text, .contact_textarea {
     padding:0.7vw 1.2vw;
