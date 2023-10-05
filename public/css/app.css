@@ -1945,11 +1945,43 @@ li.dummy {
         display: block;
         margin-bottom: 5px;
     }
-
-
-
-
-
+    .select_clinic {
+        font: normal normal normal 12px/24px Hiragino Kaku Gothic Pro;
+        letter-spacing: 0.6px;
+        color: #000000;
+        width: 180px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+        margin-top: 30px;
+    }
+    .clinic_table th {
+        background: #FF4D8E 0% 0% no-repeat padding-box;
+        border-radius: 5px 5px 0px 0px;
+        font: normal normal normal 12px/24px Kozuka Gothic Pr6N;
+        letter-spacing: 0.6px;
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    .clinic_table td {
+        border: solid 1px;
+        padding: 8px 0;
+        width: 50%;
+    }
+    .sample_title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font: normal normal normal 16px/31px メイリオ;
+        color: #000000;
+    }
+    .sample_img {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
 
 }
 
