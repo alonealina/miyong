@@ -1821,6 +1821,30 @@ li.dummy {
     .pagenation .page:last-child {
         padding: 0.5vw 4.5vw;
     }
+
+    /* article部分 */
+
+    .news_section1 {
+        margin-bottom: 15vw;
+    }
+
+    .article {
+        width: 90%;
+        margin: 3vw auto;
+    }
+
+    .article h3 {
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
+
+    .article a {
+        width: 22vw;
+    }
+
+    .article nav {
+        margin-top: 15vw;
+    }
 }
 
 
