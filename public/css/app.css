@@ -1115,11 +1115,59 @@ section.news_section1 {
 .wrapper_dotbg .sec8_news {
     margin-bottom: 1.2vw;
 }
-.page-item.active .page-link {
-    z-index: 1;
-    color: #000;
-    background-color: #CCC;
-    border-color: #CCC;
+
+.page_nav {
+    display: flex;
+    padding-bottom: 2vw;
+}
+
+ul.pagenation {
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul.pagenation li {
+    display: inline;
+    flex: 1;
+}
+
+li.page_active {
+    padding: 0.5vw;
+    margin-right: 0.5vw;
+    background-color: #FF4D8E;
+    border: 1px solid #FF4D8E;
+    border-radius: 50%;
+}
+
+li.page {
+    display: block;
+    padding: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+ul.pagenation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li.page a {
+    text-decoration: none;
+    color: #FF4D8E;
+}
+
+li.dummy {
+    text-decoration: none;
+    color: #FF4D8E;
+}
+
+.pagenation .page:last-child {
+    margin-right: 0;
+    padding: 0.5vw 1.5vw;
+    color: #FF4D8E;
+    border: 1px solid #FF4D8E;
+    border-radius: 16px;
 }
 
 /* article関連 */
