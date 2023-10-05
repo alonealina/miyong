@@ -1846,6 +1846,20 @@ li.dummy {
         margin-top: 15vw;
     }
 
+    /* cooperation関連1 */
+
+    div.coop_text {
+        padding: 0 6vw;
+    }
+
+    section.top_section_2 :last-child {
+        margin-bottom: 5vw;
+    }
+
+    .coop_section1 .img_btn img {
+        width: 90%;
+    }
+    
 
     /* service_flow部分 */
 
