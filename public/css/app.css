@@ -1855,7 +1855,7 @@ li.dummy {
         display: flex;
         justify-content: space-between;
         border: 1px solid #FF4D8E;
-        border-radius: 1vw;
+        border-radius: 10px;
         margin: 10px auto;
     }
     .service_flow_img {
@@ -1920,6 +1920,32 @@ li.dummy {
         color: #fff;
         margin-bottom: 20px;
     }
+
+
+    /* hotel部分 */
+
+    .hotel_name {
+        font: normal normal normal 16px/25px Kozuka Gothic Pr6N;
+        color: #000000;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .hotel_text {
+        font: normal normal normal 12px/20px メイリオ;
+        color: #000000;
+        margin-bottom: 21px;
+    }
+    .hotel_main_img {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .hotel_sub_img {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+
 
 
 
