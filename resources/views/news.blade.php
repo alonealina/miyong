@@ -89,7 +89,7 @@
 
 <div class=" wrapper_dotbg">
 
-<div class="page_title">お知らせ</div>
+<div class="page_title_sp">お知らせ</div>
 
 <section id="section_1" class="news_section1">
     <div class="news_container">

@@ -1808,6 +1808,14 @@ li.dummy {
         margin-right: 5vw;
     }
 
+    section.news_section1 {
+        margin-top: 0;
+    }
+
+    .page_nav {
+        margin: 7vw 0;
+    }
+
 }
 
 
