@@ -1748,7 +1748,7 @@ li.dummy {
 
     .contact_name {
         width: auto;
-        margin: 0.8vw 0 0 2vw;
+        margin: 0.8vw 0 0 0;
         font: normal normal normal 3.3vw/7.6vw Hiragino Kaku Gothic Pro;
     }
 
@@ -1757,6 +1757,10 @@ li.dummy {
         width:90vw;
         box-shadow: 0px 0px 6px #FF4D8E;
         border-radius: 5px;
+    }
+
+    input.contact_text {
+        font-size: 2.8vw;
     }
 
     .contact_textarea {
@@ -1791,7 +1795,12 @@ li.dummy {
     }
 
     .wrapper_dotbg_inner h3 {
-        line-height: 5vw;
+        line-height: 6vw;
+        font-size: 4vw;
+    }
+
+    .wrapper_dotbg_inner p {
+        font-size: 2.8vw;
     }
 
     .coop_sp {
@@ -1850,6 +1859,16 @@ li.dummy {
 
     div.coop_text {
         padding: 0 6vw;
+    }
+
+    div.coop_text h3 {
+        font-size: 4vw;
+        margin-bottom: 1vw;
+    }
+
+    div.coop_text p {
+        font-size: 2.8vw;
+        margin-bottom: 1vw;
     }
 
     section.top_section_2 :last-child {
@@ -1995,6 +2014,12 @@ li.dummy {
         width: 100%;
         display: block;
         margin-bottom: 10px;
+    }
+
+    /* footer */
+
+    p.footer {
+        font-size: 3vw;
     }
 
 }
