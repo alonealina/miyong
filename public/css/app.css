@@ -1808,6 +1808,8 @@ li.dummy {
         margin-right: 5vw;
     }
 
+    /* news部分 */
+
     section.news_section1 {
         margin-top: 0;
     }
@@ -1816,6 +1818,9 @@ li.dummy {
         margin: 7vw 0;
     }
 
+    .pagenation .page:last-child {
+        padding: 0.5vw 4.5vw;
+    }
 }
 
 
