@@ -410,7 +410,7 @@ h2.pinkBorder {
     padding-right: 1vw;
     width: 20vw;
     text-align: right;
-    font: normal normal bold 2vw/3vw 'KozGoPr6N-R';
+    font: normal normal normal 2vw/3vw 'KozGoPr6N-R';
     color: #000000;
     border-bottom: 3px solid #FF94BB;
     margin-bottom: 4vw;
@@ -461,8 +461,12 @@ p.footer {
 
 .top_section_1 .floating_box_right h2 {
     color: #FF4D8E;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.top_section_1 .floating_box_right h2 b {
     font-size: 1.8vw;
-    margin-bottom: 2vw;
 }
 
 .top_section_1 .floating_box_right {
@@ -500,19 +504,24 @@ section.top_section_2 {
 
 .top_section_2 .img_wrapper {
     overflow: hidden;
-    padding: 2vw;
+    padding: 2vw 10vw;
 }
 
 .top_section_2 img.hospital_bg {
     border-radius: 30px 30px 0px 0px;
 }
 
-.top_section_2 img {
+.top_section_2  img {
     width: 100%;
 }
 
+.top_section_2 .img_wrapper img {
+    border-radius: 30px 30px 0px 0px;
+    opacity: 1;
+}
+
 .top_section_2 .list_wrapper {
-    padding: 2vw;
+    padding: 2vw 10vw;
 }
 
 .sec2_list {
@@ -545,10 +554,10 @@ section.top_section_2 {
     padding:0.8vw;
     text-align: center;
     text-decoration: underline;
-    font: normal normal bold 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.8vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     display: block;
-    margin-right: 2vw;
+    margin-right: 10vw;
     margin-left: auto;
 }
 
@@ -639,7 +648,7 @@ section.top_section_2 {
 
 .sec4_service_list {
     width:100%;
-    padding:0 3vw;
+    padding:0 10vw;
     display: flex;
     justify-content: space-between;
     margin-bottom: 3vw;
@@ -657,7 +666,7 @@ section.top_section_2 {
 .sec4_text {
     font: normal normal normal 1vw/1.3vw Kozuka Gothic Pr6N;
     color: #000000;
-    padding-left:4vw;
+    padding-left:10vw;
 }
 
 
@@ -862,12 +871,17 @@ section.why_section1 {
 
 
 /* サービスの流れ */
-.service_flow_flex {
-    width:100%;
-    padding:4vw;
-    display: flex;
-    justify-content: space-between;
+
+.service_flow_btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 3vw;
 }
+
+.service_flow_btn img {
+    width: 80%;
+}
+
 .service_flow_item {
     width:30vw;
     padding:1.5vw;
@@ -936,8 +950,8 @@ section.why_section1 {
     z-index: 1000;
     position: relative;
     text-align: center;
-    font: normal normal normal 1.3vw/2vw メイリオ;
     color: #000000;
+    line-height: 3vw;
 }
 .plan_btn {
     width: 12vw;
@@ -972,7 +986,7 @@ section.coop_common {
 }
 
 div.coop_text  {
-    padding: 0 2vw;
+    padding: 0 10vw;
 }
 
 div.coop_text h3 {
@@ -993,23 +1007,25 @@ div.coop_text p {
 
 /* 提携ホテル関連 */
 
-.hotel_main_text {
+div.hotel {
     text-align: center;
-    font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
-    color: #000000;
-    margin-top: 4vw;
-    margin-bottom: 8vw;
+    margin: 3vw 0;
 }
+
+.hotel img {
+    width: 30%;
+}
+
 .hotel_div {
-    padding:0 4vw;
+    padding:0 10vw;
 }
 .hotel_name {
-    font: normal normal bold 1.5vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
     color: #000000;
     margin-bottom: 1vw;
 }
 .hotel_text {
-    font: normal normal normal 1.3vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.8vw Kozuka Gothic Pr6N;
     color: #000000;
     margin-bottom: 2vw;
 }
@@ -1021,6 +1037,7 @@ div.coop_text p {
     width:100%;
     display: block;
     margin-bottom: 2vw;
+    border-radius: 30px 30px 0px 0px;
 }
 .hotel_img_flex {
     width: 100%;
@@ -1029,7 +1046,7 @@ div.coop_text p {
     margin-bottom: 4vw;
 }
 .hotel_sub_img {
-    width:30vw;
+    width:26vw;
     display: block;
 }
 
@@ -1043,7 +1060,7 @@ div.coop_text p {
 }
 
 .wrapper_dotbg_inner {
-    padding: 5vw 30vw;
+    padding: 5vw 30vw 5vw 25vw;
 }
 
 .wrapper_dotbg .sec_title {
@@ -1058,7 +1075,7 @@ div.coop_text p {
 
 .coop_section1  {
     justify-content: center;
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
 }
 
 .coop_section1 .wrapper_dotbg_inner {
@@ -1094,7 +1111,7 @@ div.coop_text p {
 }
 
 .wrapper_dotbg_inner .contact_name {
-    padding-top: 1vw;
+    font-size: 1.2vw;
 }
 
 .wrapper_dotbg_inner  a.send_btn {
@@ -1180,14 +1197,14 @@ li.dummy {
 
 .article h3 {
     width: 100%;
-    font-size: 2vw;
+    font-size: 1.4vw;
     text-align: center;
     line-height: 2.5vw;
     border-bottom: 2px solid #FF94BB;
 }
 
 .article p {
-    font-size: 3vw;
+    font-size: 1.2vw;
 }
 
 .article a {
@@ -1230,7 +1247,7 @@ li.dummy {
     margin-bottom: 2vw;
 }
 .clinic_div {
-    padding:4vw;
+    padding:4vw 10vw;
 }
 .clinic_table {
     width: 100%;
@@ -1272,6 +1289,11 @@ li.dummy {
 /* 以下SP版 */
 
 @media screen and (max-width: 500px) {
+
+    body {
+        font-family: 'KozGoPr6N-R';
+    }
+
     .right_menu {
         font: normal normal normal 12px/15px メイリオ;
         letter-spacing: 0px;
@@ -1509,7 +1531,7 @@ li.dummy {
     .sec3_bg_box {
         width: 100%;
         text-align: left;
-        font: normal normal normal 1.8vw/5vw Kozuka Gothic Pr6N;
+        font: normal normal normal 3.8vw/5vw Kozuka Gothic Pr6N;
         color: #FFFFFF;
         padding-right: 0;
         border-bottom: solid 1px #fff;
@@ -1869,6 +1891,10 @@ li.dummy {
     .article h3 {
         font-size: 5vw;
         line-height: 7.5vw;
+    }
+
+    .article p {
+        font-size: 3vw;
     }
 
     .article a {

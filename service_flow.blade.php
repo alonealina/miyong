@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page_title">サービスの流れ</div>
 
 <img src="{{ asset('img/miyong_main.png') }}" class="main_img" id="main_img">
 

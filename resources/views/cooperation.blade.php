@@ -3,8 +3,6 @@
 
 @section('content')
 
-<div class="page_title">提携クリニック</div>
-
 <section id="section_1" class="coop_section1 coop">
     <div>
         <div class="img_wrapper"><img src="{{ asset('img/cooperation_bg.png')}}"></div>
@@ -31,6 +29,8 @@
             <li><img src="{{ asset('img/sec2_list3.png')}}"><h3>ユウォンジェ院長</h3></li>
             <li><img src="{{ asset('img/sec2_list4.png')}}"><h3>ユアンナ院長</h3></li>
             <li><img src="{{ asset('img/sec2_list5.png')}}"><h3>パクイヒョン院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list6.png')}}"><h3>チョスンウ院長</h3></li>
+            <li><img src="{{ asset('img/sec2_list7.png')}}"><h3>イジョエン院長</h3></li>
         </ul>
     </div>
 </section>
@@ -54,6 +54,18 @@
             <li><img src="{{ asset('img/sec2_list10.png')}}"><h3>チェ・ウォンイル医師</h3></li>
             <li><img src="{{ asset('img/sec2_list11.png')}}"><h3>チェ・サンロク医師</h3></li>
             <li><img src="{{ asset('img/sec2_list12.png')}}"><h3>コ·ヒョソン医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list13.png')}}"><h3>イ・セリン医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list14.png')}}"><h3>キム・ヘウォン医師</h3></li>
+            <!--
+            <li><img src="{{ asset('img/sec2_list15.png')}}"><h3>チョウ·スンヒ医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list16.png')}}"><h3>イ·セヒョン医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list17.png')}}"><h3>ユ·スンウ医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list18.png')}}"><h3>ヨ·イングォン医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list19.png')}}"><h3>オ・ウォンジュン医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list20.png')}}"><h3>キム·ジェウ医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list21.png')}}"><h3>キム·ジェウ医師</h3></li>
+            <li><img src="{{ asset('img/sec2_list22.png')}}"><h3>キム・セジン医師</h3></li>
+            -->
         </ul>
     </div>
 </section>

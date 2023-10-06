@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page_title">実施例サンプル</div>
 
 <img src="{{ asset('img/sample_main.png') }}" class="main_img" id="main_img">
 

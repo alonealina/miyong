@@ -1,11 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page_title">提携ホテル</div>
 
 <img src="{{ asset('img/hotel_main.png') }}" class="main_img" id="main_img">
 
-<div class="hotel_main_text">Miyong Supportは8つの提携ホテルがあります</div>
+<div class="hotel img_btn"><img src="http://localhost:8000/img/cooperation_btn.png"></div>
 
 <div class="hotel_div">
     <div class="hotel_name">OCLOUD HOTEL</div>

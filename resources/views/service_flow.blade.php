@@ -1,26 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page_title">サービスの流れ</div>
 
 <img src="{{ asset('img/miyong_main.png') }}" class="main_img" id="main_img">
 
-<div class="service_flow_flex">
-    <div class="service_flow_item">
-        <img src="{{ asset('img/service_flow1.png') }}" class="service_flow_img">
-        <div class="service_flow_text">空港からホテル・病院までの<br>送迎完備</div>
-    </div>
-
-    <div class="service_flow_item">
-        <img src="{{ asset('img/service_flow2.png') }}" class="service_flow_img">
-        <div class="service_flow_text">病院での翻訳<br>及び通訳、付き添い</div>
-    </div>
-
-    <div class="service_flow_item">
-        <img src="{{ asset('img/service_flow3.png') }}" class="service_flow_img">
-        <div class="service_flow_text">その他韓国滞在中は<br>完全サポート(日本語対応)</div>
-    </div>
-</div>
+<div class="service_flow_btn"><img src="{{ asset('img/serviceflow_btn.png')}}"></div>
 
 <div class="service_flow_main">
     <img src="{{ asset('img/service_flow_graph.png') }}" class="service_flow_graph">
