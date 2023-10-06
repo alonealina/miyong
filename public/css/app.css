@@ -1445,12 +1445,16 @@ li.dummy {
     .sec2_list_sp {
         margin-top: 10px;
         width: 100%;
+        height: 100vw;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        overflow-x: scroll;
+        flex-direction: column;
     }
     .sec2_item {
         width:105px;
+        margin-right: 5vw;
     }
     .sec2_img {
         width:100%;
@@ -1882,10 +1886,6 @@ li.dummy {
     div.coop_text p {
         font-size: 2.8vw;
         margin-bottom: 1vw;
-    }
-
-    section.top_section_2 :last-child {
-        margin-bottom: 5vw;
     }
 
     .coop_section1 .img_btn img {

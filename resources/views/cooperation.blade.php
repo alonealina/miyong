@@ -88,12 +88,13 @@
     <div class="sec2_sp">
     <img src="{{ asset('img/sec2_bg_sp.png') }}" style="width: 100%;">
     <div class="sec2_list_sp">
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list1.png')}}" class="sec2_img"><div class="sec2_name">パクヤンス院長</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list2.png')}}" class="sec2_img"><div class="sec2_name">キムヨンジュン院長</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list3.png')}}" class="sec2_img"><div class="sec2_name">ユウォンジェ院長</div></div>
+    <div class="sec2_item"><img src="{{ asset('img/sec2_list1.png')}}" class="sec2_img"><div class="sec2_name">パクヤンス院長</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list4.png')}}" class="sec2_img"><div class="sec2_name">ユアンナ院長</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list2.png')}}" class="sec2_img"><div class="sec2_name">キムヨンジュン院長</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list5.png')}}" class="sec2_img"><div class="sec2_name">パクイヒョン院長</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list3.png')}}" class="sec2_img"><div class="sec2_name">ユウォンジェ院長</div></div>        
         <div class="sec2_item"><img src="{{ asset('img/sec2_list6.png')}}" class="sec2_img"><div class="sec2_name">チョスンウ院長</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list7.png')}}" class="sec2_img"><div class="sec2_name">イジョエン院長</div></div>
     </div>
 </section>
 
@@ -110,11 +111,19 @@
     <img src="{{ asset('img/sec2_bg2_sp.png') }}" style="width: 100%;">
     <div class="sec2_list_sp">
         <div class="sec2_item"><img src="{{ asset('img/sec2_list8.png')}}" class="sec2_img"><div class="sec2_name">チャン·ヨンウ院長</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list15.png')}}" class="sec2_img"><div class="sec2_name">チョウ·スンヒ医師</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list9.png')}}" class="sec2_img"><div class="sec2_name">キム·ジョンベ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list16.png')}}" class="sec2_img"><div class="sec2_name">イ·セヒョン医師</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list10.png')}}" class="sec2_img"><div class="sec2_name">チェ・ウォンイル医師</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list11.png')}}" class="sec2_img"><div class="sec2_name">チョウ·スンヒ医師</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list12.png')}}" class="sec2_img"><div class="sec2_name">イ·セヒョン医師</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list13.png')}}" class="sec2_img"><div class="sec2_name">ユ·スンウ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list17.png')}}" class="sec2_img"><div class="sec2_name">ユ·スンウ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list11.png')}}" class="sec2_img"><div class="sec2_name">チェ・サンロク医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list18.png')}}" class="sec2_img"><div class="sec2_name">ヨ·イングォン医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list12.png')}}" class="sec2_img"><div class="sec2_name">コ·ヒョソン医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list19.png')}}" class="sec2_img"><div class="sec2_name">キム·ジェウ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list13.png')}}" class="sec2_img"><div class="sec2_name">イ・セリン医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list20.png')}}" class="sec2_img"><div class="sec2_name">キム·ジェウ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list14.png')}}" class="sec2_img"><div class="sec2_name">キム・ヘウォン医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list21.png')}}" class="sec2_img"><div class="sec2_name">キム・セジン医師</div></div>
     </div>
 </section>
 
