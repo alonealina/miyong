@@ -554,7 +554,7 @@ section.top_section_2 {
     padding:0.8vw;
     text-align: center;
     text-decoration: underline;
-    font: normal normal normal 1vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     display: block;
     margin-right: 10vw;
@@ -624,7 +624,7 @@ section.top_section_2 {
     font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
 }
 .sec3_flex_title {
-    font: normal normal bold 2.5vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     margin-bottom: 1vw;
 }
