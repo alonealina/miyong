@@ -216,8 +216,8 @@
         <div class="sec2_item"><img src="{{ asset('img/sec2_list2.png')}}" class="sec2_img"><div class="sec2_name">キムヨンジュン院長</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list3.png')}}" class="sec2_img"><div class="sec2_name">ユウォンジェ院長</div></div>
         <div class="sec2_item"><img src="{{ asset('img/sec2_list4.png')}}" class="sec2_img"><div class="sec2_name">ユアンナ院長</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list5.png')}}" class="sec2_img"><div class="sec2_name">パクイヒョン院長</div></div>
-        <div class="sec2_item"><img src="{{ asset('img/sec2_list6.png')}}" class="sec2_img"><div class="sec2_name">チョスンウ院長</div></div>
+        <div class="sec2_item_last"><img src="{{ asset('img/sec2_list5.png')}}" class="sec2_img"><div class="sec2_name">パクイヒョン院長</div></div>
+        <div class="sec2_item_last"><img src="{{ asset('img/sec2_list6.png')}}" class="sec2_img"><div class="sec2_name">チョスンウ院長</div></div>
     </div>
 </div>
 

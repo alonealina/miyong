@@ -831,6 +831,7 @@ section.top_section_2 {
 
 p.contact {
     margin: 2vw 0 0 0;
+    font-size: 1vw;
     text-align: center;
     color: #fff;
 }
@@ -1057,6 +1058,7 @@ div.coop_text p {
 
 .coop_section1  {
     justify-content: center;
+    margin-bottom: 5vw;
 }
 
 .coop_section1 .wrapper_dotbg_inner {
