@@ -61,10 +61,10 @@
     ご相談は <span class="sec5_span">24時間</span> いつでも受付中!!<br>
     LINEやInstagramから気軽にお問合せ
     <div class="sec5_icon_list">
-        <a href="#!" style=""><img src="http://localhost:8000/img/line.png" class="sec5_icon"></a>
-        <a href="#!" style="padding-top: 12vw;"><img src="http://localhost:8000/img/insta.png" class="sec5_icon"></a>
-        <a href="#!" style=""><img src="http://localhost:8000/img/kakao.png" class="sec5_icon"></a>
-        <a href="#!" style="padding-top: 12vw;"><img src="http://localhost:8000/img/twitter.png" class="sec5_icon"></a>
+        <a href="#!" style=""><img src="{{ asset('img/line.png') }}" class="sec5_icon"></a>
+        <a href="#!" style="padding-top: 12vw;"><img src="{{ asset('img/kakao.png') }}" class="sec5_icon"></a>
+        <a href="#!" style=""><img src="{{ asset('img/insta.png') }}" class="sec5_icon"></a>
+        <a href="#!" style="padding-top: 12vw;"><img src="{{ asset('img/twitter.png') }}" class="sec5_icon"></a>
     </div>
 </section>
 
