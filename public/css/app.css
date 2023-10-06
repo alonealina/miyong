@@ -1185,7 +1185,7 @@ li.dummy {
 }
 
 .article p {
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 .article a {
@@ -1784,7 +1784,7 @@ li.dummy {
     .page_title_sp {
         width: 37vw;
         margin: 25vw 0 10vw;
-        padding: 0vw 0vw 0vw 6vw;
+        text-align: center;
         border-bottom: 1.5px solid #FF4D8E;
     }
 
@@ -1860,7 +1860,8 @@ li.dummy {
     }
 
     .article a {
-        width: 22vw;
+        width: 25vw;
+        font-size: 3vw;
     }
 
     .article nav {
