@@ -1705,6 +1705,14 @@ li.dummy {
 
     /* why関連 */
 
+    div.sociallink {
+        width: 100%;
+        background-image: url(../img/sec5_bg_sp.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     section.why_section1 {
         margin: 0;
         background-image: url(../img/why_sec1_bg.png);
@@ -1716,14 +1724,18 @@ li.dummy {
     .why_section1 p {
         padding: 15vw 5vw;
         color: #707070;
-        font: normal normal normal 3.2vw/8vw Kozuka Gothic Pr6N;
+        font: normal normal normal 3vw/8vw Kozuka Gothic Pr6N;
         letter-spacing: 0.1vw;
         word-wrap: break-word;
     }
 
     .why_section1 b {
         color: #FF4D8E;
-        font-size: 5.8vw;
+        font-size: 4.8vw;
+    }
+
+    div.sociallink p {
+        margin: -6vw auto 1vw;
     }
 
     /* contact関連 */
