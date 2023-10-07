@@ -109,7 +109,7 @@
 </div>
 
 <div class="service_flow_title">お問合せ</div>
-<img src="{{ asset('img/service_flow_sns.png') }}" class="service_flow_sns">
+<img src="{{ asset('img/service_flow_sns_sp.png') }}" class="service_flow_sns">
 <div class="service_flow_ex1">1.各種SNSまたはメールよりご希望内容を<br>ご相談ください</div>
 <div class="service_flow_ex2">
     お客様のご希望に合わせて、Miyong Supportから<br>
@@ -126,9 +126,9 @@
     遠慮なくご希望内容をお話しください！
 </div>
 
-<div class="service_flow_title">病院やホテル等の選択・提案<br>＋第１次見積りの提案</div>
+<div class="service_flow_title">病院やホテル等の選択・提案<br>＋<br>第１次見積りの提案</div>
 <img src="{{ asset('img/service_flow5.png') }}" class="service_flow_content_img">
-<div class="service_flow_ex1">3.韓国での病院やホテル等の選択・提案 ＋ 第１次お見積りの提案</div>
+<div class="service_flow_ex1">3.韓国での病院やホテル等の選択・提案<br>＋ 第１次お見積りの提案</div>
 <div class="service_flow_ex2">
     お客様のご希望内容からクリニックや宿泊ホテルをご提案。<br>
     お気に入りの場所をお選びください！<br>
@@ -146,9 +146,9 @@
     韓国語がわからない方でもご安心ください！
 </div>
 
-<div class="service_flow_title">送迎等のご提案<br>＋第２次見積りの提案</div>
+<div class="service_flow_title">送迎等のご提案<br>＋<br>第２次見積りの提案</div>
 <img src="{{ asset('img/service_flow7.png') }}" class="service_flow_content_img">
-<div class="service_flow_ex1">5.送迎方法等のご提案と選択 ＋ 第２次お見積りの提案</div>
+<div class="service_flow_ex1">5.送迎方法等のご提案と選択<br>＋ 第２次お見積りの提案</div>
 <div class="service_flow_ex2">
     1~4までの流れを踏まえ、<br>
     お客様に合った送迎プランをご提案。<br>
@@ -158,7 +158,7 @@
     納得のプランが見つかるまで何度でもご相談いただけます！
 </div>
 
-<div class="service_flow_title">日程の決定と<br>プランの決定</div>
+<div class="service_flow_title">日程の決定とプランの決定</div>
 <img src="{{ asset('img/service_flow8.png') }}" class="service_flow_content_img">
 <div class="service_flow_ex1">6.日程の決定とプランの決定</div>
 <div class="service_flow_ex2">

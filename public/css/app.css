@@ -1432,7 +1432,7 @@ li.dummy {
         width: 100%;
     }
     .header_a {
-        font: normal normal bold 15px/15px メイリオ;
+        font: normal normal bold 15px/15px Kozuka Gothic Pr6N;
         color: #000000;
         display: block;
         position: relative;
@@ -1440,13 +1440,14 @@ li.dummy {
         margin-bottom: 30px;
     }
     .header_a_s {
-        font: normal normal normal 15px/15px メイリオ;
+        font: normal normal normal 15px/15px Kozuka Gothic Pr6N;
         color: #000000;
         display: block;
         position: relative;
         transition: 0.2s;
         margin-bottom: 10px;
         padding-left: 10px;
+        text-decoration: none;
     }
     .header_column {
         width: 47%;
@@ -1494,7 +1495,7 @@ li.dummy {
     .sec2_list_sp {
         margin-top: 10px;
         width: 100%;
-        height: 90vw;
+        height: 360px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -1519,6 +1520,9 @@ li.dummy {
         text-align: center;
         font: normal normal normal 10px/20px Kozuka Gothic Pr6N;
         color: #000000;
+    }
+    .coop_section1 .img_btn {
+        padding: 10vw 0;
     }
     .pink_btn {
         border: 1px solid #FF4D8E;
@@ -1547,7 +1551,7 @@ li.dummy {
         background-position: center;
         background-size: cover;
         height: 250px;
-        font: normal normal normal 12px/30px メイリオ;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
         letter-spacing: 0.6px;
         color: #FFFFFF;
         margin-left: auto;
@@ -1555,7 +1559,7 @@ li.dummy {
     .sec3_bg_box {
         width: 100%;
         text-align: left;
-        font: normal normal normal 3.8vw/5vw Kozuka Gothic Pr6N;
+        font: normal normal normal 12px/40px Kozuka Gothic Pr6N;
         color: #FFFFFF;
         padding-right: 0;
         border-bottom: solid 1px #fff;
@@ -1625,7 +1629,7 @@ li.dummy {
         margin: 0;
         width: 100vw;
         height: 72vw;
-        font: normal normal normal 4vw/8vw Kozuka Gothic Pr6N;
+        font: normal normal normal 13px/8vw Kozuka Gothic Pr6N;
         letter-spacing: 0.65px;
         color: #FF4D8E;
     }
@@ -1643,7 +1647,7 @@ li.dummy {
         margin-right: 0vw;
     }
     .sec5_span {
-        font: normal normal normal 7vw/8vw Kozuka Gothic Pr6N;
+        font: normal normal normal 21px/8vw Kozuka Gothic Pr6N;
     }
 
     .top_section_6 {
@@ -1692,7 +1696,7 @@ li.dummy {
         width: 150px;
         display: block;
         text-align: center;
-        text-decoration: underline;
+        text-decoration: none;
         font: normal normal normal 12px/24px Kozuka Gothic Pr6N;
         letter-spacing: 0.6px;
         color: #000000;
@@ -1735,17 +1739,22 @@ li.dummy {
     }
 
     .top_section_9 {
-        height: 800px;
+        height: 830px;
     }
     .contact_name_top {
         width: 90vw;
         margin: 10px 0 5px;
+        font: normal normal normal 13px/29px Kozuka Gothic Pr6N;
     }
     .contact_text_top, .contact_textarea_top {
         padding: 8px 20px;
         width: 100%;
         border: none;
         border-radius: 5px;
+        font: normal normal normal 13px/29px Kozuka Gothic Pr6N;
+    }
+    .contact_text_top::placeholder {
+        color: #CCCCCC;
     }
     .contact_textarea_top {
         height: 300px;
@@ -1787,7 +1796,7 @@ li.dummy {
         word-wrap: break-word;
     }
 
-    .why_section1 b {
+    .why_section1 span {
         color: #FF4D8E;
         font-size: 4.8vw;
     }
@@ -1800,7 +1809,7 @@ li.dummy {
 
     .contact_section {
         width: 100vw;
-        height:100vw;
+        height:110vw;
         background: initial;
     }
 
@@ -1988,14 +1997,14 @@ li.dummy {
         margin: auto;
     }
     .service_flow_ex1 {
-        font: normal normal normal 16px/25px メイリオ;
+        font: normal normal normal 16px/25px Kozuka Gothic Pr6N;
         color: #000000;
         margin-top: 20px;
         margin-bottom: 10px;
         text-align: center;
     }
     .service_flow_ex2 {
-        font: normal normal normal 12px/25px メイリオ;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
         letter-spacing: 0.6px;
         color: #000000;
         text-align: center;
@@ -2029,6 +2038,9 @@ li.dummy {
 
     /* hotel部分 */
 
+    .hotel_div {
+        padding: 0px 4vw;
+    }
     .hotel_name {
         font: normal normal normal 16px/25px Kozuka Gothic Pr6N;
         color: #000000;
@@ -2050,11 +2062,21 @@ li.dummy {
         display: block;
         margin-bottom: 5px;
     }
+    
+    /* sample部分 */
+
+    .clinic_div {
+        padding: 4vw 5vw;
+    }
+    .clinic_table {
+        width: 100%;
+    }
     .select_clinic {
         font: normal normal normal 12px/24px Kozuka Gothic Pr6N;
         letter-spacing: 0.6px;
         color: #000000;
         width: 180px;
+        height: 30px;
         border-top: none;
         border-left: none;
         border-right: none;

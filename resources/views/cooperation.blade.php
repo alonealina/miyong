@@ -94,7 +94,7 @@
         <p>
             分野別の経験豊富な専門医で構成された安心と実績のクリニックです。<br>
             韓国以外にも全国に展開しており、19年の歴史を誇ります。<br>
-            詳しくは<a href="https://ja.e-dream.co.kr/01_intro/index.php?">HP</a>へ。
+            詳しくは<a href="https://ja.e-dream.co.kr/01_intro/index.php?" style="color: #000;">HP</a>へ。
         </p>
     </div>
     <div class="sec2_sp">
@@ -112,11 +112,11 @@
 
 <section id="section_2" class="top_section_2 coop_common">
     <div class="coop_text">
-        <h3>リエンジャン美容外科</h3>
+        <h3 style="margin-top: 50px;">リエンジャン美容外科</h3>
         <p>
             2003年から美容整形・皮膚科を経営しているアジア最大のネットワーク病院です。<br>
             6種類の専門センターを運営しており、幅広い分野別の専門医があなたの理想を叶えます。<br>
-            詳しくは<a href="https://jplienjang.com/">HP</a>へ。
+            詳しくは<a href="https://jplienjang.com/" style="color: #000;">HP</a>へ。
         </p>
     </div>
     <div class="sec2_sp">

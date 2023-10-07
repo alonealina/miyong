@@ -102,20 +102,20 @@
     </table>
 
     <div class="sample_title">二重切開術：ドリーム整形外科</div>
-    <img src="{{ asset('img/sample_before.png') }}" class="sample_img">
-    <img src="{{ asset('img/sample_after.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_before_sp.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_after_sp.png') }}" class="sample_img">
 
     <div class="sample_title">二重切開術：ドリーム整形外科</div>
-    <img src="{{ asset('img/sample_before.png') }}" class="sample_img">
-    <img src="{{ asset('img/sample_after.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_before_sp.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_after_sp.png') }}" class="sample_img">
 
     <div class="sample_title">二重切開術：ドリーム整形外科</div>
-    <img src="{{ asset('img/sample_before.png') }}" class="sample_img">
-    <img src="{{ asset('img/sample_after.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_before_sp.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_after_sp.png') }}" class="sample_img">
 
     <div class="sample_title">二重切開術：ドリーム整形外科</div>
-    <img src="{{ asset('img/sample_before.png') }}" class="sample_img">
-    <img src="{{ asset('img/sample_after.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_before_sp.png') }}" class="sample_img">
+    <img src="{{ asset('img/sample_after_sp.png') }}" class="sample_img">
 
 </div>
 

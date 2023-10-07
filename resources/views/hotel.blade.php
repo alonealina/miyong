@@ -70,7 +70,7 @@
 
 @section('content_sp')
 
-<img src="{{ asset('img/hotel_main_sp.png') }}" class="main_img_sp" id="main_img" style="margin-bottom:50px;">
+<img src="{{ asset('img/hotel_main_sp.png') }}" class="main_img_sp" id="main_img" style="margin-bottom:50px; width: 100%;">
 
 <div class="service_flow_item">
     <img src="{{ asset('img/service7.png') }}" class="service_flow_img" style="margin-left: 14px;">
