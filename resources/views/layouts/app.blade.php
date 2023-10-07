@@ -37,14 +37,14 @@
                 <div class="menu-content_work">
                     <a href="{{ route('contactform') }}" class="header_a header_8">お問い合わせ</a>
                     <a href="{{ route('company') }}" class="header_a header_9">運営会社</a>
-                    <a href="{{ route('index') }}" class="header_a header_10">目の整形</a>
-                    <a href="{{ route('index') }}" class="header_a header_11">鼻の整形</a>
-                    <a href="{{ route('index') }}" class="header_a header_12">両顎&輪郭整形</a>
-                    <a href="{{ route('index') }}" class="header_a header_13">胸・ボディ</a>
-                    <a href="{{ route('index') }}" class="header_a header_14">整形注射</a>
-                    <a href="{{ route('index') }}" class="header_a header_15">アンチエイジング</a>
-                    <a href="{{ route('index') }}" class="header_a header_16">各種再手術</a>
-                    <a href="{{ route('index') }}" class="header_a header_17">その他</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_10">目の整形</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_11">鼻の整形</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_12">両顎&輪郭整形</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_13">胸・ボディ</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_14">整形注射</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_15">アンチエイジング</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_16">各種再手術</a>
+                    <a href="{{ route('index') }}" class="header_a2 header_17">その他</a>
                 </div>
             </div>
 

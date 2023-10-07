@@ -7,29 +7,30 @@
 
 
 <div class="clinic_div">
+    <div class="clinic_table_flex">
+        <select name="clinic" class="select_clinic" style="" id="clinic">
+            <option value="ドリーム整形外科">ドリーム整形外科</option>
+            <option value="リエンジャン整形外科">リエンジャン整形外科</option>
+        </select>
 
-    <select name="clinic" class="select_clinic" style="" id="clinic">
-        <option value="ドリーム整形外科">ドリーム整形外科</option>
-        <option value="リエンジャン整形外科">リエンジャン整形外科</option>
-    </select>
-
-    <table class="clinic_table">
-        <tbody>
-            <tr>
-                <th rowspan="2">全て</th>
-                <td>目</td>
-                <td>鼻</td>
-                <td>輪郭</td>
-                <td>ボディ</td>
-            </tr>
-            <tr>
-                <td>整形注射</td>
-                <td>アンチエイジング</td>
-                <td>各種再手術</td>
-                <td>その他</td>
-            </tr>
-        </tbody>
-    </table>
+        <table class="clinic_table">
+            <tbody>
+                <tr>
+                    <th rowspan="2">全て</th>
+                    <td>目</td>
+                    <td>鼻</td>
+                    <td>輪郭</td>
+                    <td>ボディ</td>
+                </tr>
+                <tr>
+                    <td>整形注射</td>
+                    <td>アンチエイジング</td>
+                    <td>各種再手術</td>
+                    <td>その他</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div class="sample_title">二重切開術：ドリーム整形外科</div>
     <div class="sample_flex">

@@ -12,7 +12,7 @@
         <div class="service_flow_title">お問合せ</div>
         <img src="{{ asset('img/service_flow_sns.png') }}" class="service_flow_sns">
         <div class="service_flow_ex1">1.各種SNSまたはメールよりご希望内容をご相談ください</div>
-        <div class="service_flow_ex2" style="margin-bottom: 15vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 4vw;">
             お客様のご希望に合わせて、Miyong Supportから<br>
             専属コンサルタントを選定させていただきます。<br>
             ご質問等もお気軽にお問い合わせください。
@@ -22,7 +22,7 @@
         <div class="service_flow_title">ご希望内容の確認</div>
         <img src="{{ asset('img/service_flow4.png') }}" class="service_flow_content_img">
         <div class="service_flow_ex1">2.お客様のご希望内容の確認と追加ヒアリング</div>
-        <div class="service_flow_ex2" style="margin-bottom: 15vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 6vw;">
             専属コンサルタントが希望内容に合わせてプランをご提案。<br>
             遠慮なくご希望内容をお話しください！
         </div>
@@ -30,7 +30,7 @@
         <div class="service_flow_title">病院やホテル等の選択・提案<br>＋<br>１次見積りの提案</div>
         <img src="{{ asset('img/service_flow5.png') }}" class="service_flow_content_img">
         <div class="service_flow_ex1">3.韓国での病院やホテル等の選択・提案 ＋ 第１次お見積りの提案</div>
-        <div class="service_flow_ex2" style="margin-bottom: 16vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 6vw;">
             お客様のご希望内容からクリニックや宿泊ホテルをご提案。<br>
             お気に入りの場所をお選びください！<br>
             大まかなプランが決まり次第、お見積もりをご提案させていただきます。
@@ -39,7 +39,7 @@
         <div class="service_flow_title">病院とのオンライン相談・診断</div>
         <img src="{{ asset('img/service_flow6.png') }}" class="service_flow_content_img">
         <div class="service_flow_ex1">4.ご希望の病院とのオンライン相談・診断</div>
-        <div class="service_flow_ex2" style="margin-bottom: 15vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 6vw;">
             現地の医師とオンラインでの相談ができ、専門的な診断が受けられます。<br>
             オンライン相談には専門の翻訳家が同席いたしますので、<br>
             韓国語がわからない方でもご安心ください！
@@ -48,7 +48,7 @@
         <div class="service_flow_title">送迎等のご提案<br>＋<br>２次見積りの提案</div>
         <img src="{{ asset('img/service_flow7.png') }}" class="service_flow_content_img">
         <div class="service_flow_ex1">5.送迎方法等のご提案と選択 ＋ 第2次お見積りの提案</div>
-        <div class="service_flow_ex2" style="margin-bottom: 17vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 6vw;">
             1~4までの流れを踏まえ、お客様に合った送迎プランをご提案。<br>
             お客様のご要望も是非お聞かせください。<br>
             第1次お見積もりにプラン内容をあわせて、適正な第2次お見積もりの<br>
@@ -59,7 +59,7 @@
         <div class="service_flow_title">日程の決定と<br>プランの決定</div>
         <img src="{{ asset('img/service_flow8.png') }}" class="service_flow_content_img">
         <div class="service_flow_ex1">6.日程の決定とプランの決定</div>
-        <div class="service_flow_ex2" style="margin-bottom: 16vw;">
+        <div class="service_flow_ex2" style="margin-bottom: 6vw;">
             お気に入りのプランが見つかったら<br>
             日程と当日のプランを決定してご契約に移ります。
         </div>
@@ -76,7 +76,7 @@
 </div>
 
 <div class="service_humans">
-    <a href="#!"><img src="{{ asset('img/plan_btn.png') }}" class="plan_btn"></a>
+    <a href="#!" class="plan_a">プランの開始</a>
     理想の自分になるための旅が始まります<br>
     韓国で生まれ変わった貴女に出会いましょう！
 </div>

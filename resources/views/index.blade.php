@@ -22,7 +22,7 @@
 <div class="text_end">「不安と心配」を解消して「貴女の希望する姿」への<br>サポートをさせてください。</div>
 
 <section id="section_2" class="top_section_2 common">
-    <h2 class="pinkBorder">提携クリニック</h2>
+    <div class="sec_title">提携クリニック</div>
     <div class="img_wrapper">
         <img src="{{ asset('img/sec2_bg.png') }}" class="hospital_bg">
     </div>

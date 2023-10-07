@@ -57,6 +57,13 @@ header {
     position: fixed;
     top:1.5vw;
     transition: 0.2s;
+    text-decoration: none;
+}
+.header_a2 {
+    font: normal normal normal 1.5vw/2.5vw メイリオ;
+    color: #000000;
+    position: fixed;
+    text-decoration: none;
 }
 .header_1 {
     left:33.5vw;
@@ -80,46 +87,46 @@ header {
     left:88vw;
 }
 .header_8 {
-    top: 23vw;
+    top: 29vw;
     left: 7vw;
-    font-weight: bold;
+    font: normal normal bold 1.5vw/2.5vw メイリオ;
 }
 .header_9 {
-    top: 26vw;
+    top: 34vw;
     left: 7vw;
-    font-weight: bold;
+    font: normal normal bold 1.5vw/2.5vw メイリオ;
 }
 .header_10 {
-    top: 10vw;
-    left: 20.5vw;
+    top: 11vw;
+    left: 24vw;
 }
 .header_11 {
-    top: 12vw;
-    left: 20.5vw;
+    top: 13.5vw;
+    left: 24vw;
 }
 .header_12 {
-    top: 14vw;
-    left: 20.5vw;
+    top: 16vw;
+    left: 24vw;
 }
 .header_13 {
-    top: 16vw;
-    left: 20.5vw;
+    top: 18.5vw;
+    left: 24vw;
 }
 .header_14 {
-    top: 18vw;
-    left: 20.5vw;
+    top: 21vw;
+    left: 24vw;
 }
 .header_15 {
-    top: 20vw;
-    left: 20.5vw;
+    top: 23.5vw;
+    left: 24vw;
 }
 .header_16 {
-    top: 22vw;
-    left: 20.5vw;
+    top: 26vw;
+    left: 24vw;
 }
 .header_17 {
-    top: 24vw;
-    left: 20.5vw;
+    top: 28.5vw;
+    left: 24vw;
 }
 
 .header_1_after {
@@ -128,32 +135,32 @@ header {
     font-weight: bold;
 }
 .header_2_after {
-    top: 11vw;
+    top: 12vw;
     left: 7vw;
     font-weight: bold;
 }
 .header_3_after {
-    top: 14vw;
+    top: 16vw;
     left: 7vw;
     font-weight: bold;
 }
 .header_4_after {
     top: 8vw;
-    left: 20vw;
+    left: 23vw;
     font-weight: bold;
 }
 .header_5_after {
-    top: 26.5vw;
-    left: 20vw;
+    top: 32vw;
+    left: 23vw;
     font-weight: bold;
 }
 .header_6_after {
-    top: 17vw;
+    top: 20vw;
     left: 7vw;
     font-weight: bold;
 }
 .header_7_after {
-    top: 20vw;
+    top: 24vw;
     left: 7vw;
     font-weight: bold;
 }
@@ -178,6 +185,7 @@ header {
     text-align: center;
     height: 6vw;
     transition: 0.2s;
+    z-index: 50;
 }
 .right_menu_text {
     margin-bottom: 1vw;
@@ -270,7 +278,7 @@ header {
     top: 5.3vw;
     width: 100%;
     position: fixed;
-    height: 28vw;
+    height: 42vw;
     z-index: 80;
     background-color: rgba(255, 255, 255, 0.85);
     transition: all 0.2s;/*アニメーション設定*/
@@ -407,10 +415,10 @@ h2.pinkBorder {
 }
 
 .sec_title {
-    padding-right: 1vw;
+    padding-right: 0;
     width: 20vw;
     text-align: right;
-    font: normal normal normal 2vw/3vw 'KozGoPr6N-R';
+    font: normal normal normal 1.5vw/3vw 'KozGoPr6N-R';
     color: #000000;
     border-bottom: 3px solid #FF94BB;
     margin-bottom: 4vw;
@@ -434,7 +442,7 @@ p.footer {
 
 /* sec1 */
 .top_section_1 {
-    z-index: 100;
+    z-index: 20;
     position: relative;
     margin-bottom: 0;
 }
@@ -550,11 +558,11 @@ section.top_section_2 {
 .pink_btn {
     border: 2px solid #FF4D8E;
     border-radius: 2vw;
-    width:15vw;
+    width:12vw;
     padding:0.8vw;
     text-align: center;
     text-decoration: underline;
-    font: normal normal normal 1.5vw/1.8vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     display: block;
     margin-right: 10vw;
@@ -587,7 +595,7 @@ section.top_section_2 {
     background-position: center;
     background-size: cover;
     height: 25vw;
-    font: normal normal normal 1vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0.08vw;
     color: #FFFFFF;
 }
@@ -612,16 +620,17 @@ section.top_section_2 {
     margin-right: 13vw;
 }
 .sec3_bg_box {
-    width: 45vw;
+    width: 47vw;
     text-align: right;
     font: normal normal normal 1vw/1vw Kozuka Gothic Pr6N;
     color: #FFFFFF;
     padding-right:25vw;
     border-bottom: solid 1px #fff;
     margin: 5vw 0 3vw 0;
+    padding-bottom: 0.5vw;
 }
 .sec3_span {
-    font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal 500 2vw/3vw Kozuka Gothic Pr6N;
 }
 .sec3_flex_title {
     font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
@@ -631,7 +640,7 @@ section.top_section_2 {
 
 .miyong_title {
     text-align: center;
-    font: normal normal bold 2vw/4vw Kozuka Gothic Pr6N;
+    font: normal normal bold 2vw/3vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     margin:7vw 0;
 }
@@ -660,7 +669,7 @@ section.top_section_2 {
 }
 .sec4_service {
     text-align: center;
-    font: normal normal bold 1.4vw/2vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1vw/1.5vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
 }
 .sec4_text {
@@ -678,7 +687,7 @@ section.top_section_2 {
     background-repeat: no-repeat;
     padding-top: 4vw;
     padding-bottom: 4vw;
-    margin: -1.5vw 5vw 0 5vw;
+    margin: -1.5vw 8vw 0 5vw;
 }
 .sec5_phone_bg {
     background-image: url(../img/sec5_phone_bg.png);
@@ -723,21 +732,21 @@ section.top_section_2 {
     padding-left:40vw;
     margin-top: 5vw;
     text-align: center;
-    font: normal normal normal 1.4vw/4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/3vw Kozuka Gothic Pr6N;
     letter-spacing: 0.08vw;
     color: #707070;
 }
 .sec6_title1 {
-    font: normal normal bold 2vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.5vw/2.5vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
 }
 .sec6_title2 {
-    font: normal normal bold 1.4vw/2.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
     margin-bottom: 3vw;
 }
 .sec6_span {
-    font: normal normal bold 1.8vw/4vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
 }
 
@@ -748,17 +757,17 @@ section.top_section_2 {
 
 .sec7_hotel_list {
     width:100%;
-    padding:0 3vw;
+    padding:0 11vw;
     display: flex;
     justify-content: space-between;
     margin-bottom: 3vw;
 }
 .sec7_hotel {
-    width:22vw;
+    width:18vw;
     display: block;
     text-align: center;
     text-decoration: underline;
-    font: normal normal normal 1.2vw/5.2vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/4vw Kozuka Gothic Pr6N;
     color: #000000;
 }
 .sec7_hotel img {
@@ -775,13 +784,14 @@ section.top_section_2 {
     margin: 3vw auto;
 }
 .sec8_news {
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    font: normal normal normal 1.3vw/1.3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.3vw Kozuka Gothic Pr6N;
     color: #000000;
-    padding:0.5vw;
+    padding: 0.5vw;
     border-bottom: #FF94BB 1px solid;
+    text-decoration: none;
 }
 .sec8_news_date {
     width:8vw;
@@ -811,7 +821,7 @@ section.top_section_2 {
     margin: 1vw auto;
     display: flex;
     justify-content: space-between;
-    font: normal normal normal 1.3vw/1.6vw Hiragino Kaku Gothic Pro;
+    font: normal normal normal 1vw/1.6vw Kozuka Gothic Pr6N;
 }
 .contact_name {
     width: 15vw;
@@ -864,9 +874,9 @@ section.why_section1 {
     word-wrap: break-word;
 }
 
-.why_section1 b {
+.why_section1 span {
     color: #FF4D8E;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 
 
@@ -916,49 +926,57 @@ section.why_section1 {
     width:78vw;
 }
 .service_flow_title {
-    font: normal normal bold 1.6vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
     color: #FF4D8E;
     margin-bottom: 2.5vw;
 }
 .service_flow_sns {
-    width: 25vw;
+    width: 30vw;
 }
 .service_flow_ex1 {
-    font: normal normal bold 1.5vw/2vw Hiragino Kaku Gothic Pro;
+    font: normal normal bold 1vw/2vw Kozuka Gothic Pr6N;
     color: #000000;
     margin-top: 4vw;
     margin-bottom: 1vw;
 }
 .service_flow_ex2 {
-    font: normal normal normal 1.3vw/2vw メイリオ;
+    font: normal normal normal 1vw/2vw メイリオ;
     letter-spacing: 0px;
     color: #000000;
 }
 .service_flow_content_img {
     width: 50vw;
+    border-radius: 3vw 3vw 0px 0px;
 }
 .service_humans {
     background-image: url(../img/service_humans.png);
-    width:100vw;
+    width: 100vw;
     height: 57vw;
     background-position: center;
     background-size: cover;
-    padding-top: 20vw;
+    padding-top: 25vw;
     padding-bottom: 0vw;
-    margin-top: -23vw;
+    margin-top: -10vw;
     z-index: 1000;
     position: relative;
     text-align: center;
-    color: #000000;
-    line-height: 3vw;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
+    color: #FFFFFF;
+    line-height: 2vw;
 }
 .plan_btn {
     width: 12vw;
     display: block;
     margin: 0 auto 1.5vw;
 }
-
+.plan_a {
+    font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
+    color: #FFFFFF;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    display: block;
+}
 
 /* cooperation関連 */
 
@@ -990,7 +1008,7 @@ div.coop_text  {
 }
 
 div.coop_text h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-bottom: 1vw;
 }
 
@@ -1236,40 +1254,46 @@ li.dummy {
 /* 実施例サンプル関連 */
 
 .select_clinic {
-    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
     color: #000000;
-    width: 18vw;
+    width: 17vw;
+    height: 2vw;
     border-top: none;
     border-left: none;
     border-right: none;
-    padding-bottom: 1vw;
-    margin-bottom: 2vw;
+    padding-bottom: 0.5vw;
+    margin-top: 4vw;
 }
 .clinic_div {
     padding:4vw 10vw;
 }
-.clinic_table {
+.clinic_table_flex {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+}
+.clinic_table {
+    width: 60vw;
     text-align: center;
     border-collapse:  collapse;
-    font: normal normal normal 1.3vw/2vw メイリオ;
+    font: normal normal normal 1vw/2vw メイリオ;
 }
 .clinic_table td {
-    border: solid 1px;
+    border: 1px solid #FF4D8E;
     padding: 0.5vw 0;
     width: 20%;
 }
 .clinic_table th {
-    background: #FF94BB 0% 0% no-repeat padding-box;
+    background: #FF4D8E 0% 0% no-repeat padding-box;
     border-radius: 5px 0px 0px 5px;
     color: #fff;
 }
 .sample_title {
     text-align: center;
-    margin-top: 4vw;
-    margin-bottom: 1vw;
-    font: normal normal normal 1.3vw/2vw Hiragino Kaku Gothic Pro;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    font: normal normal normal 1.5vw/2vw Kozuka Gothic Pr6N;
     color: #000000;
 }
 .sample_flex {
@@ -1789,13 +1813,13 @@ li.dummy {
         width: 100vw;
         margin: 1vw auto;
         display: block;
-        font: normal normal normal 1.3vw/1.6vw Hiragino Kaku Gothic Pro;
+        font: normal normal normal 1.3vw/1.6vw Kozuka Gothic Pr6N;
     }
 
     .contact_name {
         width: auto;
         margin: 0.8vw 0 0 0;
-        font: normal normal normal 3.3vw/7.6vw Hiragino Kaku Gothic Pro;
+        font: normal normal normal 3.3vw/7.6vw Kozuka Gothic Pr6N;
     }
 
     .contact_text, .contact_textarea {
@@ -2027,7 +2051,7 @@ li.dummy {
         margin-bottom: 5px;
     }
     .select_clinic {
-        font: normal normal normal 12px/24px Hiragino Kaku Gothic Pro;
+        font: normal normal normal 12px/24px Kozuka Gothic Pr6N;
         letter-spacing: 0.6px;
         color: #000000;
         width: 180px;
