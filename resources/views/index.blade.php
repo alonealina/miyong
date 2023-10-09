@@ -23,19 +23,39 @@
 
 <section id="section_2" class="top_section_2 common">
     <div class="sec_title">提携クリニック</div>
-    <div class="img_wrapper">
-        <img src="{{ asset('img/sec2_bg.png') }}" class="hospital_bg">
-    </div>
-    <div class="list_wrapper">
-        <ul class="sec2_list">
-            <li><img src="{{ asset('img/sec2_list1.png')}}"><h3>パクヤンス院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list2.png')}}"><h3>キムヨンジュン院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list3.png')}}"><h3>ユウォンジェ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list4.png')}}"><h3>ユアンナ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list5.png')}}"><h3>パクイヒョン院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list6.png')}}"><h3>チョスンウ院長</h3></li>
-            <li><img src="{{ asset('img/sec2_list7.png')}}"><h3>イジョエン院長</h3></li>
-        </ul>
+    <div class="slider">
+        <div class="">
+            <div class="img_wrapper">
+                <img src="{{ asset('img/sec2_bg.png') }}" class="hospital_bg">
+            </div>
+            <div class="list_wrapper">
+                <ul class="sec2_list">
+                    <li><img src="{{ asset('img/sec2_list1.png')}}"><h3>パクヤンス院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list2.png')}}"><h3>キムヨンジュン院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list3.png')}}"><h3>ユウォンジェ院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list4.png')}}"><h3>ユアンナ院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list5.png')}}"><h3>パクイヒョン院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list6.png')}}"><h3>チョスンウ院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list7.png')}}"><h3>イジョエン院長</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div class="">
+            <div class="img_wrapper">
+                <img src="{{ asset('img/sec2_bg2.png') }}" class="hospital_bg">
+            </div>
+            <div class="list_wrapper">
+                <ul class="sec2_list">
+                    <li><img src="{{ asset('img/sec2_list8.png')}}"><h3>チャン·ヨンウ院長</h3></li>
+                    <li><img src="{{ asset('img/sec2_list9.png')}}"><h3>キム·ジョンベ医師</h3></li>
+                    <li><img src="{{ asset('img/sec2_list10.png')}}"><h3>チェ・ウォンイル医師</h3></li>
+                    <li><img src="{{ asset('img/sec2_list11.png')}}"><h3>チェ・サンロク医師</h3></li>
+                    <li><img src="{{ asset('img/sec2_list12.png')}}"><h3>コ·ヒョソン医師</h3></li>
+                    <li><img src="{{ asset('img/sec2_list13.png')}}"><h3>イ・セリン医師</h3></li>
+                    <li><img src="{{ asset('img/sec2_list14.png')}}"><h3>キム・ヘウォン医師</h3></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
