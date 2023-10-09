@@ -1278,29 +1278,36 @@ li.dummy {
 .clinic_table {
     width: 60vw;
     text-align: center;
-    border-collapse:  collapse;
+    border-collapse:  separate;
     font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
 }
 .clinic_table td {
-    border: 1px solid #FF4D8E;
+    border-bottom: 1px solid #FF4D8E;
+    border-right: 1px solid #FF4D8E;
     padding: 0.5vw 0;
     width: 20%;
 }
 .clinic_table th {
     background: #FF4D8E 0% 0% no-repeat padding-box;
     color: #fff;
+    border-bottom: 1px solid #FF4D8E;
+    border-right: 1px solid #FF4D8E;
+}
+
+.clinic_table tr:first-child td {
+    border-top: 1px solid #FF4D8E;
 }
 
 .clinic_table th:first-child {
-    border-radius: 5px 0 0 5px;
+    border-radius: 10px 0 0 10px;
 }
 
 td.border-top-right {
-    border-top-right-radius: 5px;
+    border-top-right-radius: 10px;
 }
 
 td.border-bottom-right {
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 10px;
 }
 
 .sample_title {
