@@ -48,7 +48,7 @@
         <img src="{{ asset('img/sec2_bg2.png') }}">
     </div>
     <div class="list_wrapper">
-        <ul class="sec2_list">
+        <ul class="sec2_list slider_cast">
             <li><img src="{{ asset('img/sec2_list8.png')}}"><h3>チャン·ヨンウ院長</h3></li>
             <li><img src="{{ asset('img/sec2_list9.png')}}"><h3>キム·ジョンベ医師</h3></li>
             <li><img src="{{ asset('img/sec2_list10.png')}}"><h3>チェ・ウォンイル医師</h3></li>
@@ -56,7 +56,6 @@
             <li><img src="{{ asset('img/sec2_list12.png')}}"><h3>コ·ヒョソン医師</h3></li>
             <li><img src="{{ asset('img/sec2_list13.png')}}"><h3>イ・セリン医師</h3></li>
             <li><img src="{{ asset('img/sec2_list14.png')}}"><h3>キム・ヘウォン医師</h3></li>
-            <!--
             <li><img src="{{ asset('img/sec2_list15.png')}}"><h3>チョウ·スンヒ医師</h3></li>
             <li><img src="{{ asset('img/sec2_list16.png')}}"><h3>イ·セヒョン医師</h3></li>
             <li><img src="{{ asset('img/sec2_list17.png')}}"><h3>ユ·スンウ医師</h3></li>
@@ -65,7 +64,6 @@
             <li><img src="{{ asset('img/sec2_list20.png')}}"><h3>キム·ジェウ医師</h3></li>
             <li><img src="{{ asset('img/sec2_list21.png')}}"><h3>キム·ジェウ医師</h3></li>
             <li><img src="{{ asset('img/sec2_list22.png')}}"><h3>キム・セジン医師</h3></li>
-            -->
         </ul>
     </div>
 </section>

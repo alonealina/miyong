@@ -12,16 +12,14 @@
 }
 
 /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
-
 .slider .slick-slide {
     margin:0 0px;
 }
 
 /*矢印の設定*/
-
 /*戻る、次へ矢印の位置*/
-.slick-prev, 
-.slick-next {
+.slider .slick-prev, 
+.slider .slick-next {
     position: absolute;
     top: 100.2%;
     cursor: pointer;
@@ -35,15 +33,63 @@
     color: #FF4D8E;
 }
 
-
-.slick-prev {/*戻る矢印の位置と形状*/
+.slider .slick-prev {/*戻る矢印の位置と形状*/
     left: 39vw;
 }    
 
-
-.slick-next {/*次へ矢印の位置と形状*/
+.slider .slick-next {/*次へ矢印の位置と形状*/
     left: 58vw;
 }
+
+
+
+
+/*==================================================
+CASTスライダーのためのcss
+===================================*/
+.slider_cast {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 auto;
+}
+
+.slider_cast img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+.slider_cast .slick-slide {
+    margin:0 0.5vw;
+}
+
+/*矢印の設定*/
+/*戻る、次へ矢印の位置*/
+.slider_cast .slick-prev, 
+.slider_cast .slick-next {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    outline: none;
+    height: 3vw;
+    width: 3vw;
+    padding: 1vw;
+    font: normal normal normal 1.2vw/1.2vw Devanagari MT;
+    border: 1px solid #FF4D8E;
+    border-radius: 100%;
+    color: #FF4D8E;
+}
+
+.slider_cast .slick-prev {/*戻る矢印の位置と形状*/
+    left: -5vw;
+}    
+
+.slider_cast .slick-next {/*次へ矢印の位置と形状*/
+    left: 82vw;
+}
+
+
+
+
 
 
 
