@@ -52,7 +52,7 @@ header {
     width:15vw;
 }
 .header_a {
-    font: normal normal normal 1vw/2vw メイリオ;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     color: #000000;
     position: fixed;
     top:1.5vw;
@@ -60,7 +60,7 @@ header {
     text-decoration: none;
 }
 .header_a2 {
-    font: normal normal normal 1.5vw/2.5vw メイリオ;
+    font: normal normal normal 1.5vw/2.5vw Kozuka Gothic Pr6N;
     color: #000000;
     position: fixed;
     text-decoration: none;
@@ -89,12 +89,12 @@ header {
 .header_8 {
     top: 29vw;
     left: 7vw;
-    font: normal normal bold 1.5vw/2.5vw メイリオ;
+    font: normal normal bold 1.5vw/2.5vw Kozuka Gothic Pr6N;
 }
 .header_9 {
     top: 34vw;
     left: 7vw;
-    font: normal normal bold 1.5vw/2.5vw メイリオ;
+    font: normal normal bold 1.5vw/2.5vw Kozuka Gothic Pr6N;
 }
 .header_10 {
     top: 11vw;
@@ -174,7 +174,7 @@ header {
 }
 
 .right_menu {
-    font: normal normal normal 1vw/1.2vw メイリオ;
+    font: normal normal normal 1vw/1.2vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 1vw;
@@ -473,7 +473,7 @@ p.footer {
     margin-bottom: 1vw;
 }
 
-.top_section_1 .floating_box_right h2 b {
+.top_section_1 .floating_box_right h2 span {
     font-size: 1.8vw;
 }
 
@@ -556,9 +556,9 @@ section.top_section_2 {
 }
 
 .pink_btn {
-    border: 2px solid #FF4D8E;
+    border: 1px solid #FF4D8E;
     border-radius: 2vw;
-    width:12vw;
+    width:10vw;
     padding:0.8vw;
     text-align: center;
     text-decoration: underline;
@@ -620,29 +620,29 @@ section.top_section_2 {
     margin-right: 13vw;
 }
 .sec3_bg_box {
-    width: 47vw;
+    width: 51vw;
     text-align: right;
     font: normal normal normal 1vw/1vw Kozuka Gothic Pr6N;
     color: #FFFFFF;
-    padding-right:25vw;
+    padding-right:30vw;
     border-bottom: solid 1px #fff;
     margin: 5vw 0 3vw 0;
     padding-bottom: 0.5vw;
 }
 .sec3_span {
-    font: normal normal 500 2vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal 500 1.8vw/3vw Kozuka Gothic Pr6N;
 }
 .sec3_flex_title {
     font: normal normal 500 1.6vw/2vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
 }
 
 .miyong_title {
     text-align: center;
-    font: normal normal bold 2vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal bold 1.8vw/3vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
-    margin:7vw 0;
+    margin:5vw 0 10vw;
 }
 
 /* sec4 */
@@ -669,7 +669,7 @@ section.top_section_2 {
 }
 .sec4_service {
     text-align: center;
-    font: normal normal bold 1vw/1.5vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/1.5vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
 }
 .sec4_text {
@@ -743,7 +743,7 @@ section.top_section_2 {
 .sec6_title2 {
     font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     color: #FF4D8E;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 .sec6_span {
     font: normal normal normal 1.5vw/3vw Kozuka Gothic Pr6N;
@@ -786,18 +786,20 @@ section.top_section_2 {
 .sec8_news {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     font: normal normal normal 1vw/1.3vw Kozuka Gothic Pr6N;
     color: #000000;
     padding: 0.5vw;
     border-bottom: #FF94BB 1px solid;
     text-decoration: none;
 }
+
 .sec8_news_date {
-    width:8vw;
+    margin-right: 1vw;
 }
+
 .sec8_news_genre {
-    width:7vw;
+    width: 7vw;
+    margin-right: 1vw;
     text-align: center;
 }
 .sec8_news_title {
@@ -807,7 +809,7 @@ section.top_section_2 {
 /* sec9 */
 .top_section_9 {
     width: 100vw;
-    height:50vw;
+    height:47vw;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #FF94BB 100%) 0% 0% no-repeat padding-box;
 }
 
@@ -862,13 +864,13 @@ section.why_section1 {
     background-image: url(../img/why_sec1_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right -15vw center;
+    background-position: right -10vw center;
 }
 
 .why_section1 p {
     padding: 10vw 25vw;
     color: #707070;
-    font: normal normal normal 1.2vw/3vw Kozuka Gothic Pr6N;
+    font: normal normal normal 1vw/3vw Kozuka Gothic Pr6N;
     letter-spacing: 0.1vw;
     line-height: 3vw;
     word-wrap: break-word;
@@ -941,7 +943,7 @@ section.why_section1 {
     margin-bottom: 1vw;
 }
 .service_flow_ex2 {
-    font: normal normal normal 1vw/2vw メイリオ;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -957,7 +959,7 @@ section.why_section1 {
     background-size: cover;
     padding-top: 25vw;
     padding-bottom: 0vw;
-    margin-top: -10vw;
+    margin: -10vw 0 1vw;
     z-index: 1000;
     position: relative;
     text-align: center;
@@ -1266,7 +1268,7 @@ li.dummy {
     margin-top: 4vw;
 }
 .clinic_div {
-    padding:4vw 10vw;
+    padding:4vw 10vw 10vw 10vw;
 }
 .clinic_table_flex {
     display: flex;
@@ -1277,7 +1279,7 @@ li.dummy {
     width: 60vw;
     text-align: center;
     border-collapse:  collapse;
-    font: normal normal normal 1vw/2vw メイリオ;
+    font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
 }
 .clinic_table td {
     border: 1px solid #FF4D8E;
@@ -1286,9 +1288,21 @@ li.dummy {
 }
 .clinic_table th {
     background: #FF4D8E 0% 0% no-repeat padding-box;
-    border-radius: 5px 0px 0px 5px;
     color: #fff;
 }
+
+.clinic_table th:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+td.border-top-right {
+    border-top-right-radius: 5px;
+}
+
+td.border-bottom-right {
+    border-bottom-right-radius: 5px;
+}
+
 .sample_title {
     text-align: center;
     margin-top: 5vw;
@@ -1319,7 +1333,7 @@ li.dummy {
     }
 
     .right_menu {
-        font: normal normal normal 12px/15px メイリオ;
+        font: normal normal normal 12px/15px Kozuka Gothic Pr6N;
         letter-spacing: 0px;
         background-color: rgba(255, 255, 255, 0.85);
         border-radius: 0 0 10px 10px;

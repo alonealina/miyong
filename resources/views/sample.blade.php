@@ -20,13 +20,13 @@
                     <td>目</td>
                     <td>鼻</td>
                     <td>輪郭</td>
-                    <td>ボディ</td>
+                    <td class="border-top-right">ボディ</td>
                 </tr>
                 <tr>
                     <td>整形注射</td>
                     <td>アンチエイジング</td>
                     <td>各種再手術</td>
-                    <td>その他</td>
+                    <td class="border-bottom-right">その他</td>
                 </tr>
             </tbody>
         </table>
@@ -91,12 +91,12 @@
                 <td>ボディ</td>
             </tr>
             <tr>
-                <td>整形注射</td>
+                <td class="border-top-right">整形注射</td>
                 <td>アンチエイジング</td>
             </tr>
             <tr>
                 <td>各種再手術</td>
-                <td>その他</td>
+                <td class="border-bottom-right">その他</td>
             </tr>
         </tbody>
     </table>

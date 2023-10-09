@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="floating_box_right">
-        <h2>美容大国<b>「韓国」</b>での美容整形をフルサポート</h2>
+        <h2>美容大国<span>「韓国」</span>での美容整形をフルサポート</h2>
         <p>
             何かと心配になる美容整形、それも韓国での施術となれば尚更のことと思います。<br>          
             言葉の問題・滞在期間中の問題・アフターケアの問題などなど様々な不安があるのでは？<br>
@@ -61,7 +61,7 @@
     <a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
 </section>
 
-<section id="section_3" class="top_section_3 common">
+<section id="section_3" class="top_section_3">
     <div class="sec3_bg">
         <div class="sec3_bg_box">
             貴女の為だけの<span class="sec3_span">最適なプラン</span> を<br>
@@ -99,8 +99,7 @@
         </div>
         <div class="sec4_service">
             <img src="{{ asset('img/service3.png')}}">
-            病院やホテル等の<br>
-            ご提案と選択<br>
+            病院やホテル等の選択・提案<br>
             ＋<br>
             １次見積りの提案
         </div>
