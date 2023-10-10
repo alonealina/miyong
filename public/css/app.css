@@ -1482,6 +1482,11 @@ td.border-bottom-right {
         margin-top: 60px;
     }
 
+    .main_img_sp {
+        width: 100%;
+        display: block;
+    }
+
     .sec1_title {
         text-align: center;
         font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
@@ -1719,14 +1724,14 @@ td.border-bottom-right {
 
     .sec7_hotel_list {
         width: 100%;
-        padding: 0 3vw;
+        padding: 0 3vw 5vw;
         display: flex;
         justify-content: space-between;
         margin-bottom: 3vw;
         flex-direction: column;
         flex-wrap: wrap;
         overflow: scroll;
-        height: 200px;
+        height: 210px;
     }
     .sec7_hotel {
         width: 150px;
