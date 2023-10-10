@@ -83,19 +83,19 @@
                 <th colspan="2">全て</th>
             </tr>
             <tr>
-                <td>目</td>
+                <td class="border_left">目</td>
                 <td>鼻</td>
             </tr>
             <tr>
-                <td>輪郭</td>
+                <td class="border_left">輪郭</td>
                 <td>ボディ</td>
             </tr>
             <tr>
-                <td class="border-top-right">整形注射</td>
+                <td class="border_left">整形注射</td>
                 <td>アンチエイジング</td>
             </tr>
             <tr>
-                <td>各種再手術</td>
+                <td class="border_left_last">各種再手術</td>
                 <td class="border-bottom-right">その他</td>
             </tr>
         </tbody>

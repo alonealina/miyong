@@ -2125,6 +2125,11 @@ td.border-bottom-right {
         margin-bottom: 2vw;
         margin-top: 30px;
     }
+
+    .clinic_table th:first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
     .clinic_table th {
         background: #FF4D8E 0% 0% no-repeat padding-box;
         border-radius: 5px 5px 0px 0px;
@@ -2134,10 +2139,21 @@ td.border-bottom-right {
         padding: 10px;
     }
     .clinic_table td {
-        border: solid 1px;
+        border-bottom: 1px solid #FF4D8E;
+        border-right: 1px solid #FF4D8E;
         padding: 8px 0;
         width: 50%;
     }
+
+    .clinic_table td.border_left {
+        border-left: 1px solid #FF4D8E;
+    }
+
+    .clinic_table td.border_left_last {
+        border-left: 1px solid #FF4D8E;
+        border-bottom-left-radius: 10px;
+    }
+
     .sample_title {
         text-align: center;
         margin-top: 50px;
