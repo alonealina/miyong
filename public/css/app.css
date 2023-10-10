@@ -1095,7 +1095,7 @@ div.hotel {
 
 .coop_section1  {
     justify-content: center;
-    margin-bottom: 2vw;
+    margin-bottom: 5vw;
 }
 
 .coop_section1 .wrapper_dotbg_inner {
@@ -1209,10 +1209,14 @@ li.dummy {
     border-radius: 16px;
 }
 
+p.news {
+    margin-top: 5vw;
+}
+
 /* article関連 */
 .article {
     width: 50%;
-    margin: 3vw auto;
+    margin: 3vw auto 5vw;
 }
 
 .article h3 {
