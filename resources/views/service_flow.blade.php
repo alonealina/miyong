@@ -183,6 +183,8 @@
     韓国で生まれ変わった貴女に<br>出会いましょう！
 </div>
 
+<div class="sociallink">
+
 <section id="section_5" class="top_section_5" style="margin-top: -3px;">
     ご相談は <span class="sec5_span">24時間</span> いつでも受付中!!<br>
     LINEやInstagramから気軽にお問合せ
@@ -193,6 +195,10 @@
         <a href="#!" style="padding-top: 12vw;"><img src="{{ asset('img/twitter.png') }}" class="sec5_icon"></a>
     </div>
 </section>
+
+<p class="footer">Copyright（C）Beauty Support All rights reserved.</p>
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/index_sp.js') }}"></script>

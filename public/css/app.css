@@ -1282,6 +1282,7 @@ p.news {
 .clinic_table {
     width: 60vw;
     text-align: center;
+    border-spacing: 0;
     border-collapse:  separate;
     font: normal normal normal 1vw/2vw Kozuka Gothic Pr6N;
 }
@@ -1500,7 +1501,7 @@ td.border-bottom-right {
     }
     .text_end_sp {
         text-align: center;
-        font: normal normal bold 14px/25px Kozuka Gothic Pr6N;
+        font: normal normal normal 14px/25px Kozuka Gothic Pr6N;
         color: #000000;
         margin-bottom: 20px;
     }
@@ -1514,9 +1515,18 @@ td.border-bottom-right {
         margin: 50px auto 20px;
     }
     .sec2_sp {
-        padding:0 20px;
-        margin-bottom: 3vw;
+        padding:5vw 20px;
     }
+
+    .sec2_sp_wrapper {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .sec2_sp .coop_img {
+        width: 90vw;
+    }
+
     .sec2_list_sp {
         margin-top: 10px;
         width: 100%;
@@ -1528,7 +1538,7 @@ td.border-bottom-right {
         flex-direction: column;
     }
     .sec2_item {
-        width:105px;
+        width:104px;
         margin-right: 5vw;
     }
 
@@ -1580,6 +1590,7 @@ td.border-bottom-right {
         letter-spacing: 0.6px;
         color: #FFFFFF;
         margin-left: auto;
+        margin-top: 20vw;
     }
     .sec3_bg_box {
         width: 100%;
@@ -1735,6 +1746,10 @@ td.border-bottom-right {
         margin-bottom: 10px;
     }
 
+    section.common {
+        margin-bottom: 20vw;
+    }
+
     .sec8_news_list {
         width: 90vw;
         display: block;
@@ -1807,10 +1822,10 @@ td.border-bottom-right {
 
     section.why_section1 {
         margin: 0;
-        background-image: url(../img/why_sec1_bg.png);
-        background-size: contain;
+        background-image: url(../img/why_sec1_bg_SP.png);
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: right -15vw center;
+        background-position: right -20vw center;
     }
 
     .why_section1 p {
@@ -1828,6 +1843,7 @@ td.border-bottom-right {
 
     div.sociallink p {
         margin: -6vw auto 1vw;
+        color: #fff;
     }
 
     /* contact関連 */
@@ -2041,7 +2057,7 @@ td.border-bottom-right {
     .service_humans {
         background-image: url(../img/service_humans_sp.png);
         width: 100vw;
-        height: 106vw;
+        height: 105vw;
         background-position: center;
         background-size: cover;
         padding-top: 32vw;
@@ -2050,7 +2066,7 @@ td.border-bottom-right {
         z-index: 1000;
         position: relative;
         text-align: center;
-        font: normal normal normal 12px/25px メイリオ;
+        font: normal normal normal 12px/25px Kozuka Gothic Pr6N;
         color: #fff;
     }
     .service_a {  

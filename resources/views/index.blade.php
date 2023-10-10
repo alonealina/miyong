@@ -227,8 +227,10 @@
 
 <div class="sec_title">提携クリニック</div>
 
+<div class="sec2_sp_wrapper">
+
 <div class="sec2_sp">
-    <img src="{{ asset('img/sec2_bg_sp.png') }}" style="width: 100%;">
+    <img class="coop_img" src="{{ asset('img/sec2_bg_sp.png') }}">
 
     <div class="sec2_list_sp">
         <div class="sec2_item"><img src="{{ asset('img/sec2_list1.png')}}" class="sec2_img"><div class="sec2_name">パクヤンス院長</div></div>
@@ -238,6 +240,21 @@
         <div class="sec2_item_last"><img src="{{ asset('img/sec2_list5.png')}}" class="sec2_img"><div class="sec2_name">パクイヒョン院長</div></div>
         <div class="sec2_item_last"><img src="{{ asset('img/sec2_list6.png')}}" class="sec2_img"><div class="sec2_name">チョスンウ院長</div></div>
     </div>
+</div>
+
+<div class="sec2_sp">
+    <img class="coop_img" src="{{ asset('img/sec2_bg2_sp.png') }}">
+
+    <div class="sec2_list_sp">
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list8.png')}}" class="sec2_img"><div class="sec2_name">チャン·ヨンウ院長</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list9.png')}}" class="sec2_img"><div class="sec2_name">キム·ジョンベ医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list10.png')}}" class="sec2_img"><div class="sec2_name">チェ・ウォンイル医師</div></div>
+        <div class="sec2_item"><img src="{{ asset('img/sec2_list11.png')}}" class="sec2_img"><div class="sec2_name">チェ・サンロク医師</div></div>
+        <div class="sec2_item_last"><img src="{{ asset('img/sec2_list12.png')}}" class="sec2_img"><div class="sec2_name">コ·ヒョソン医師</div></div>
+        <div class="sec2_item_last"><img src="{{ asset('img/sec2_list13.png')}}" class="sec2_img"><div class="sec2_name">イ・セリン医師</div></div>
+    </div>
+</div>
+
 </div>
 
 <a href="{{ route('cooperation') }}" class="pink_btn">一覧へ</a>
@@ -277,8 +294,7 @@
         </div>
         <div class="sec4_service">
             <img src="{{ asset('img/service3.png')}}">
-            病院やホテル等の<br>
-            ご提案と選択<br>
+            病院やホテル等の選択・提案<br>
             ＋<br>
             １次見積りの提案
         </div>
