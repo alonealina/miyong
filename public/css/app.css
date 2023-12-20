@@ -1232,12 +1232,7 @@ p.news {
 }
 
 .article a {
-    display: block;
-    border: 1px solid #FF4D8E;
-    width: 8vw;
-    padding: 0.1vw;
     margin: 0;
-    font-size: 0.8vw;
 }
 
 .article nav {
